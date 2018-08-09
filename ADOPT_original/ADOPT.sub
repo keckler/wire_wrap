@@ -1,0 +1,36 @@
+#!/bin/sh
+
+#SBATCH --job-name=ADOPT
+
+#SBATCH --output=ADOPT.o
+
+#SBATCH --error=ADOPT.error
+
+#SBATCH --partition=savio
+
+#SBATCH --time=100:00:00
+
+#SBATCH --nodes=1
+
+#SBATCH --ntasks-per-node=20
+
+#SBATCH --cpus-per-task=1
+
+# QoS:
+
+#SBATCH --qos=nuclear_savio_normal
+
+#
+
+# Account:
+
+#SBATCH -A co_nuclear
+
+#SBATCH --mail-user=keckler@berkeley.edu
+#SBATCH --mail-type=all
+
+# run command
+module unload gcc/4.8.5
+module load intel/2013_sp1.4.211
+module load openmpi/1.6.5-intel
+./ADOPT.py
