@@ -172,7 +172,7 @@ def runserpent_single(filename,version,sss1filename,sss2filename):
 	if version == 1:
 		runline = sss1filename + " " + filename +  " > serpent_output.txt"
 	else:
-		runline = sss2filename + " " + filename + " > serpent_output.txt"
+		runline = sss2filename + " -omp 20 " + filename + " > serpent_output.txt"
 
 	subprocess.check_output([runline, "-l"], shell = True)
 
