@@ -1,0 +1,33 @@
+#!/bin/sh
+
+#SBATCH --job-name=inf_original
+
+#SBATCH --output=inf.o
+
+#SBATCH --error=inf.error
+
+#SBATCH --partition=savio2
+
+#SBATCH --time=30:00:00
+
+#SBATCH --nodes=4
+
+#SBATCH --ntasks-per-node=24
+
+#SBATCH --cpus-per-task=1
+
+# QoS:
+
+#SBATCH --qos=savio_normal
+
+#
+
+# Account:
+
+#SBATCH -A fc_neutronics
+
+#SBATCH --mail-user=keckler@berkeley.edu
+#SBATCH --mail-type=all
+
+# run command
+mpirun -np 4 --map-by ppr:1:node:pe=24 sss2 -omp 24 inf

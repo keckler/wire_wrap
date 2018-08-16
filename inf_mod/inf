@@ -1,0 +1,136 @@
+% ################################################################################### //// ######## //// ####### 
+% ##################### surfaces for assembly universes ############################# //// ######## //// ####### 
+% ################################################################################### //// ######## //// #######
+
+surf domain cuboid 0. 1. 0. 1. 0. 1.
+
+% ################################################################################### //// ######## //// ####### 
+% ##################### Core cells for filling lattices ############################# //// ######## //// ####### 
+% ################################################################################### //// ######## //// ####### 
+
+cell fuel 0 fuel -domain
+
+% ################################################################################### //// ######## //// ####### 
+% ##################### Outside cells ############################################### //// ######## //// ####### 
+% ################################################################################### //// ######## //// ####### 
+
+cell outer 0 outside domain
+
+% ################################################################################### //// ######## //// ####### 
+% ##################### Materials   ################################################# //// ######## //// ####### 
+% ################################################################################### //// ######## //// #######
+
+% taken from Batch1Axial5 at start of ADOPT calc (i.e. using originally guessed peaking factors)
+% volume changed to reflect geometry of this calc
+% all materials changed to .06c for burnup (fuel used to be at .12c)
+
+mat fuel -8.44852 vol 1. burn 1
+40090.06c -2.38020e-02     % Non-actinide component of fuel (MetallicZr)
+40091.06c -5.24843e-03     % Non-actinide component of fuel (MetallicZr)
+40092.06c -8.11053e-03     % Non-actinide component of fuel (MetallicZr)
+40094.06c -8.39828e-03     % Non-actinide component of fuel (MetallicZr)
+40096.06c -1.38185e-03     % Non-actinide component of fuel (MetallicZr)
+92235.06c -1.83853e-03     % Fissile component of fuel (U235)
+92238.06c -7.33572e-01     % Fertile component of fuel (U238)
+11023.06c -1.21460e-02     % Bond/gap isotope (Na)
+28058.06c -3.74987e-04     % Cladding isotope (HT9)
+28060.06c -1.49418e-04     % Cladding isotope (HT9)
+28061.06c -6.60413e-06     % Cladding isotope (HT9)
+28062.06c -2.13967e-05     % Cladding isotope (HT9)
+28064.06c -5.62825e-06     % Cladding isotope (HT9)
+24050.06c -5.58974e-04     % Cladding isotope (HT9)
+24052.06c -1.12097e-02     % Cladding isotope (HT9)
+24053.06c -1.29557e-03     % Cladding isotope (HT9)
+24054.06c -3.28575e-04     % Cladding isotope (HT9)
+25055.06c -2.23214e-04     % Cladding isotope (HT9)
+42092.06c -1.58676e-04     % Cladding isotope (HT9)
+42094.06c -1.01056e-04     % Cladding isotope (HT9)
+42095.06c -1.75779e-04     % Cladding isotope (HT9)
+42096.06c -1.86109e-04     % Cladding isotope (HT9)
+42097.06c -1.07667e-04     % Cladding isotope (HT9)
+42098.06c -2.74849e-04     % Cladding isotope (HT9)
+42100.06c -1.11932e-04     % Cladding isotope (HT9)
+14028.06c -2.56343e-04     % Cladding isotope (HT9)
+14029.06c -1.34435e-05     % Cladding isotope (HT9)
+14030.06c -9.23106e-06     % Cladding isotope (HT9)
+74000.06c -5.58034e-04     % Cladding isotope (HT9)
+23000.06c -5.58034e-04     % Cladding isotope (HT9)
+6000.06c  -2.23214e-04     % Cladding isotope (HT9)
+26054.06c -5.34625e-03     % Cladding isotope (HT9)
+26056.06c -8.70293e-02     % Cladding isotope (HT9)
+26057.06c -2.04583e-03     % Cladding isotope (HT9)
+26058.06c -2.77035e-04     % Cladding isotope (HT9)
+11023.06c -2.64438e-02     % Coolant isotope (Na)
+28058.06c -2.12599e-04     % Duct isotope (HT9)
+28060.06c -8.47131e-05     % Duct isotope (HT9)
+28061.06c -3.74422e-06     % Duct isotope (HT9)
+28062.06c -1.21309e-05     % Duct isotope (HT9)
+28064.06c -3.19095e-06     % Duct isotope (HT9)
+24050.06c -3.16912e-04     % Duct isotope (HT9)
+24052.06c -6.35536e-03     % Duct isotope (HT9)
+24053.06c -7.34524e-04     % Duct isotope (HT9)
+24054.06c -1.86286e-04     % Duct isotope (HT9)
+25055.06c -1.26551e-04     % Duct isotope (HT9)
+42092.06c -8.99619e-05     % Duct isotope (HT9)
+42094.06c -5.72938e-05     % Duct isotope (HT9)
+42095.06c -9.96581e-05     % Duct isotope (HT9)
+42096.06c -1.05515e-04     % Duct isotope (HT9)
+42097.06c -6.10423e-05     % Duct isotope (HT9)
+42098.06c -1.55826e-04     % Duct isotope (HT9)
+42100.06c -6.34601e-05     % Duct isotope (HT9)
+14028.06c -1.45334e-04     % Duct isotope (HT9)
+14029.06c -7.62180e-06     % Duct isotope (HT9)
+14030.06c -5.23357e-06     % Duct isotope (HT9)
+74000.06c -3.16379e-04     % Duct isotope (HT9)
+23000.06c -3.16379e-04     % Duct isotope (HT9)
+6000.06c  -1.26551e-04     % Duct isotope (HT9)
+26054.06c -3.03107e-03     % Duct isotope (HT9)
+26056.06c -4.93414e-02     % Duct isotope (HT9)
+26057.06c -1.15989e-03     % Duct isotope (HT9)
+26058.06c -1.57065e-04     % Duct isotope (HT9)
+11023.06c -4.17630e-03     % IA-gap coolant isotope (Na)
+
+% ################################################################################### //// ######## //// ####### 
+% ##################### Detectors   ################################################# //// ######## //// ####### 
+% ################################################################################### //// ######## //// #######
+
+%det flux n dm fuel
+det fissxs n dm fuel dr -6 void
+
+% ################################################################################### //// ######## //// ####### 
+% ##################### Set options ################################################# //// ######## //// ####### 
+% ################################################################################### //// ######## //// #######
+
+% --- set data library locations
+set acelib "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7/sss_endfb7u.xsdata" "/global/scratch/ckeckler/photon.xsdata"
+set declib "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7/sss_endfb7.dec"
+set nfylib "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7/sss_endfb7.nfy"
+set pdatadir "/global/home/groups/co_nuclear/serpent/photon_data"
+
+% --- set normalization
+set flux 2E15 %taken from the BnB ADOPT calculations used for the ARC study in the center portion of the core
+
+% --- Reduce energy grid size:
+set egrid 5E-3 1E-5 10.0
+
+% --- Cut-offs:
+set fpcut   1E-9
+set stabcut 1E-12
+set ttacut  1E-18
+set xsfcut  1E-6
+
+% --- ???
+set pcc 0
+set printm 1
+set nbuf 8
+%set rfw yes binaryRestart
+
+% -- boundary conditions
+set bc 2
+
+% --- set depletion settings
+dep daystep 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 200 200 200 200 200 200 200 200 200 200 200 200 200 200 200
+set inventory all
+
+% --- criticality settings
+set pop 600000 100 20 1 20 20
