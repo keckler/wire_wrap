@@ -1,1 +1,5 @@
 *.fig
+*.dep
+*.seed
+*.out
+x_*
