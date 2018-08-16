@@ -34,7 +34,7 @@ Duct     = "HT9"     # D9/HT9/T91
 
 ## COOLANT PROPERTIES
 CoolantInletTemperature  = 355.0 + 273.15 # Coolant inlet temperature [K]
-CoolantOutletTemperature = 534.0 + 273.15 #"C" # Set or calculated PEAK coolant outlet temperature [K or "C"]
+CoolantOutletTemperature = 554.0 + 273.15 #"C" # Set or calculated PEAK coolant outlet temperature [K or "C"]
 
 ## PRIMARY CYCLE FLOW CHARACTERISTICS
 ThermalCenterElevation        = 2.15   # Elevation between the thermal center of the core and thermal center of the internal heat exchanger [m]

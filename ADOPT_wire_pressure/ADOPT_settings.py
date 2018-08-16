@@ -138,7 +138,7 @@ MetallicFuelPlutoniumFraction      = 0.10            # Estimated peak plutonium 
 ################################################################################## //// ######## //// ######| 
 
 ## FLOW CONSTRAINTS
-PressureDropConstraint               = 1.00e6 # Total primary cycle pressure drop constraint [Pa]
+PressureDropConstraint               = 1.11111e6 # Total primary cycle pressure drop constraint [Pa]
 MassFlowConstraint                   = 1e6   # Maximum coolant mass flow rate [kg/s]
 CoolantVelocityConstraint            = 12    # Peak coolant axial velocity [m/s]
 NaturalCirculationFOM1Constraint     = 1000#ThermalCenterElevation # Maximum thermal center elevation for decay heat removal by natural circulation [m]

@@ -1,0 +1,2908 @@
+% ####################################################                         
+%                                                                              
+%    Cell belowcorecoolant                                                     
+%                                                                              
+%    Materials                                                                 
+%    -------------------------------------------------                         
+%    Coolant:   Na
+%                                                                              
+%    General geometry                                                          
+%    -------------------------------------------------                         
+%    Cell volume:  44.640 m^3 
+%    Axial length: 2.000 m 
+%    Diameter:     5.331 m 
+%                                                                              
+%    Mass fractions                                                            
+%    -------------------------------------------------                         
+%    Coolant    = 100.00%
+%                                                                              
+%    Volume fractions                                                          
+%    -------------------------------------------------                         
+%    Coolant    = 100.00%
+%                                                                              
+%    Cell-averaged mass density (g/cc)                                         
+%    -------------------------------------------------                         
+%    Cell total = 0.87
+%                                                                              
+%    Cell-averaged temperatures (deg. C)                                       
+%    -------------------------------------------------                         
+%    Coolant    = 357.1
+%                                                                              
+%    Component density (g/cc)                                                  
+%    -------------------------------------------------                         
+%    Coolant    = 0.87
+%                                                                              
+%    Component mass (kg/cell)                                                  
+%    -------------------------------------------------                         
+%    Coolant    = 38653.8
+%                                                                              
+% ######################################################                       
+
+mat belowcorecoolantmat -0.86590 rgb  242 242 242 
+11023.06c -1.00000e+00     % Coolant isotope (Na) 
+
+% ####################################################                         
+%                                                                              
+%    Cell lowershield                                                          
+%                                                                              
+%    Materials                                                                 
+%    -------------------------------------------------                         
+%    Shield:    B4C
+%    Cladding:  HT9
+%    Coolant:   Na
+%    Duct:      HT9
+%                                                                              
+%    General geometry                                                          
+%    -------------------------------------------------                         
+%    Cell volume:  0.777 m^3 
+%    Axial length: 0.050 m 
+%    Diameter:     4.449 m 
+%                                                                              
+%    Mass fractions                                                            
+%    -------------------------------------------------                         
+%    Shield          = 38.98%
+%    Cladding        = 33.74%
+%    Active coolant  = 7.59%
+%    Duct            = 18.46%
+%    IA-gap coolant  = 1.23%
+%                                                                              
+%    Volume fractions                                                          
+%    -------------------------------------------------                         
+%    Shield          = 50.51% 
+%    Cladding        = 12.88%
+%    Active coolant  = 25.60%
+%    Duct            = 7.04%
+%    IA-gap coolant  = 4.14%
+%                                                                              
+%    Cell-averaged mass density (g/cc)                                         
+%    -------------------------------------------------                         
+%    Shield          = 1.14
+%    Cladding        = 0.99
+%    Active coolant  = 0.22
+%    Duct            = 0.54
+%    IA-gap coolant  = 0.04
+%    Cell total      = 2.92
+%                                                                              
+%    Cell-averaged temperatures (deg. C)                                       
+%    -------------------------------------------------                         
+%    Shield          = 364.6
+%    Cladding        = 364.6
+%    Active coolant  = 357.1
+%    Duct            = 356.1
+%    IA-gap coolant  = 353.1
+%                                                                              
+%    Component density (g/cc)                                                  
+%    -------------------------------------------------                         
+%    Shield          = 2.26
+%    Cladding        = 7.66
+%    Active coolant  = 0.87
+%    Duct            = 7.66
+%    IA-gap coolant  = 0.87
+%                                                                              
+%    Component mass (kg/cell)                                                
+%    -------------------------------------------------                       
+%    Shield         = 885.3
+%    Cladding       = 766.2
+%    Active coolant = 172.3
+%    Duct           = 419.2
+%    IA-gap         = 27.9
+%                                                                            
+% ######################################################                     
+
+mat lowershieldmat -2.92174 rgb  133 37 37  
+5010.06c  -2.72019e-01     % Shield isotope (B4C) 
+5011.06c  -3.32320e-02     % Shield isotope (B4C) 
+6000.06c  -8.45971e-02     % Shield isotope (B4C) 
+11023.06c -7.58633e-02     % Coolant isotope (Na) 
+28058.06c -1.13362e-03     % Cladding isotope (HT9) 
+28060.06c -4.51704e-04     % Cladding isotope (HT9) 
+28061.06c -1.99648e-05     % Cladding isotope (HT9) 
+28062.06c -6.46839e-05     % Cladding isotope (HT9) 
+28064.06c -1.70147e-05     % Cladding isotope (HT9) 
+24050.06c -1.68982e-03     % Cladding isotope (HT9) 
+24052.06c -3.38878e-02     % Cladding isotope (HT9) 
+24053.06c -3.91660e-03     % Cladding isotope (HT9) 
+24054.06c -9.93308e-04     % Cladding isotope (HT9) 
+25055.06c -6.74793e-04     % Cladding isotope (HT9) 
+42092.06c -4.79691e-04     % Cladding isotope (HT9) 
+42094.06c -3.05500e-04     % Cladding isotope (HT9) 
+42095.06c -5.31394e-04     % Cladding isotope (HT9) 
+42096.06c -5.62621e-04     % Cladding isotope (HT9) 
+42097.06c -3.25488e-04     % Cladding isotope (HT9) 
+42098.06c -8.30891e-04     % Cladding isotope (HT9) 
+42100.06c -3.38380e-04     % Cladding isotope (HT9) 
+14028.06c -7.74944e-04     % Cladding isotope (HT9) 
+14029.06c -4.06407e-05     % Cladding isotope (HT9) 
+14030.06c -2.79062e-05     % Cladding isotope (HT9) 
+74000.06c -1.68698e-03     % Cladding isotope (HT9) 
+23000.06c -1.68698e-03     % Cladding isotope (HT9) 
+6000.06c  -6.74793e-04     % Cladding isotope (HT9) 
+26054.06c -1.61622e-02     % Cladding isotope (HT9) 
+26056.06c -2.63097e-01     % Cladding isotope (HT9) 
+26057.06c -6.18472e-03     % Cladding isotope (HT9) 
+26058.06c -8.37499e-04     % Cladding isotope (HT9) 
+28058.06c -6.20219e-04     % Duct isotope (HT9) 
+28060.06c -2.47135e-04     % Duct isotope (HT9) 
+28061.06c -1.09231e-05     % Duct isotope (HT9) 
+28062.06c -3.53896e-05     % Duct isotope (HT9) 
+28064.06c -9.30900e-06     % Duct isotope (HT9) 
+24050.06c -9.24531e-04     % Duct isotope (HT9) 
+24052.06c -1.85406e-02     % Duct isotope (HT9) 
+24053.06c -2.14284e-03     % Duct isotope (HT9) 
+24054.06c -5.43455e-04     % Duct isotope (HT9) 
+25055.06c -3.69190e-04     % Duct isotope (HT9) 
+42092.06c -2.62447e-04     % Duct isotope (HT9) 
+42094.06c -1.67144e-04     % Duct isotope (HT9) 
+42095.06c -2.90734e-04     % Duct isotope (HT9) 
+42096.06c -3.07819e-04     % Duct isotope (HT9) 
+42097.06c -1.78080e-04     % Duct isotope (HT9) 
+42098.06c -4.54594e-04     % Duct isotope (HT9) 
+42100.06c -1.85133e-04     % Duct isotope (HT9) 
+14028.06c -4.23985e-04     % Duct isotope (HT9) 
+14029.06c -2.22352e-05     % Duct isotope (HT9) 
+14030.06c -1.52680e-05     % Duct isotope (HT9) 
+74000.06c -9.22976e-04     % Duct isotope (HT9) 
+23000.06c -9.22976e-04     % Duct isotope (HT9) 
+6000.06c  -3.69190e-04     % Duct isotope (HT9) 
+26054.06c -8.84258e-03     % Duct isotope (HT9) 
+26056.06c -1.43944e-01     % Duct isotope (HT9) 
+26057.06c -3.38376e-03     % Duct isotope (HT9) 
+26058.06c -4.58209e-04     % Duct isotope (HT9) 
+11023.06c -1.22965e-02     % IA-gap coolant isotope (Na) 
+
+
+% ####################################################                      
+%                                                                           
+%    Cell belowcoreradialreflector                                          
+%                                                                           
+%    Materials                                                              
+%    -------------------------------------------------                      
+%    Reflector-pin: D9
+%    Coolant:       Na
+%    Duct:          HT9
+%                                                                           
+%    General geometry                                                       
+%    -------------------------------------------------                      
+%    Cell volume:  0.162 m^3 
+%    Axial length: 0.050 m   
+%    Radially between r = 2.224 and 2.445 m 
+%                                                                            
+%    Calculated geometry                                                     
+%    -------------------------------------------------                       
+%    Reflector pin diameter: 1.965 cm 
+%    Reflector pin pitch:    2.774 cm 
+%    Reflector pin P/D:      1.412 
+%                                                                            
+%    Mass fractions                                                          
+%    -------------------------------------------------                       
+%    Reflector-pin   = 72.12%
+%    Active coolant  = 10.99%
+%    Duct            = 15.84%
+%    IA-gap coolant  = 1.05%
+%                                                                            
+%    Volume fractions                                                        
+%    -------------------------------------------------                       
+%    Reflector-pin   = 28.81% (40.00% in-assembly) 
+%    Active coolant  = 43.22% (60.00% in-assembly) 
+%    Duct            = 7.04%
+%    IA-gap coolant  = 4.14%
+%                                                                            
+%    Cell-averaged mass density (g/cc)                                       
+%    -------------------------------------------------                       
+%    Reflector-pin   = 2.46
+%    Active coolant  = 0.37
+%    Duct            = 0.54
+%    IA-gap coolant  = 0.04
+%    Cell total      = 3.41
+%                                                                            
+%    Cell-averaged temperatures (deg. C)                                     
+%    -------------------------------------------------                       
+%    Reflector-pin   = 356.1
+%    Active coolant  = 357.1
+%    Duct            = 356.1
+%    IA-gap coolant  = 353.1
+%                                                                            
+%    Component density (g/cc)                                                
+%    -------------------------------------------------                       
+%    Reflector-pin  = 8.524
+%    Active coolant = 0.866
+%    Duct           = 7.659
+%    IA-gap coolant = 0.867
+%                                                                            
+%    Component mass (kg/cell)                                                
+%    -------------------------------------------------                       
+%    Reflector-pin  = 7945.6
+%    Active coolant = 1210.8
+%    Duct           = 1744.9
+%    IA-gap coolant = 116.2
+%                                                                            
+% ######################################################                     
+
+mat belowcoreradialreflectormat -3.40548 rgb  153 145 145 
+28058.06c -7.51160e-02     % Reflector-pin isotope (D9) 
+28060.06c -2.99310e-02     % Reflector-pin isotope (D9) 
+28061.06c -1.32291e-03     % Reflector-pin isotope (D9) 
+28062.06c -4.28610e-03     % Reflector-pin isotope (D9) 
+28064.06c -1.12743e-03     % Reflector-pin isotope (D9) 
+24050.06c -4.06349e-03     % Reflector-pin isotope (D9) 
+24052.06c -8.14895e-02     % Reflector-pin isotope (D9) 
+24053.06c -9.41818e-03     % Reflector-pin isotope (D9) 
+24054.06c -2.38859e-03     % Reflector-pin isotope (D9) 
+25055.06c -1.44237e-02     % Reflector-pin isotope (D9) 
+42092.06c -2.05067e-03     % Reflector-pin isotope (D9) 
+42094.06c -1.30601e-03     % Reflector-pin isotope (D9) 
+42095.06c -2.27170e-03     % Reflector-pin isotope (D9) 
+42096.06c -2.40520e-03     % Reflector-pin isotope (D9) 
+42097.06c -1.39146e-03     % Reflector-pin isotope (D9) 
+42098.06c -3.55205e-03     % Reflector-pin isotope (D9) 
+42100.06c -1.44657e-03     % Reflector-pin isotope (D9) 
+14028.06c -4.96932e-03     % Reflector-pin isotope (D9) 
+14029.06c -2.60608e-04     % Reflector-pin isotope (D9) 
+14030.06c -1.78948e-04     % Reflector-pin isotope (D9) 
+22046.06c -1.42796e-04     % Reflector-pin isotope (D9) 
+22047.06c -1.31576e-04     % Reflector-pin isotope (D9) 
+22048.06c -1.33140e-03     % Reflector-pin isotope (D9) 
+22049.06c -9.97431e-05     % Reflector-pin isotope (D9) 
+22050.06c -9.74477e-05     % Reflector-pin isotope (D9) 
+6000.06c  -2.88473e-04     % Reflector-pin isotope (D9) 
+26054.06c -2.68555e-02     % Reflector-pin isotope (D9) 
+26056.06c -4.37169e-01     % Reflector-pin isotope (D9) 
+26057.06c -1.02767e-02     % Reflector-pin isotope (D9) 
+26058.06c -1.39161e-03     % Reflector-pin isotope (D9) 
+11023.06c -1.09894e-01     % Coolant isotope (Na) 
+28058.06c -5.32117e-04     % Duct isotope (HT9) 
+28060.06c -2.12029e-04     % Duct isotope (HT9) 
+28061.06c -9.37145e-06     % Duct isotope (HT9) 
+28062.06c -3.03625e-05     % Duct isotope (HT9) 
+28064.06c -7.98666e-06     % Duct isotope (HT9) 
+24050.06c -7.93201e-04     % Duct isotope (HT9) 
+24052.06c -1.59069e-02     % Duct isotope (HT9) 
+24053.06c -1.83845e-03     % Duct isotope (HT9) 
+24054.06c -4.66257e-04     % Duct isotope (HT9) 
+25055.06c -3.16747e-04     % Duct isotope (HT9) 
+42092.06c -2.25166e-04     % Duct isotope (HT9) 
+42094.06c -1.43401e-04     % Duct isotope (HT9) 
+42095.06c -2.49435e-04     % Duct isotope (HT9) 
+42096.06c -2.64094e-04     % Duct isotope (HT9) 
+42097.06c -1.52783e-04     % Duct isotope (HT9) 
+42098.06c -3.90019e-04     % Duct isotope (HT9) 
+42100.06c -1.58835e-04     % Duct isotope (HT9) 
+14028.06c -3.63758e-04     % Duct isotope (HT9) 
+14029.06c -1.90767e-05     % Duct isotope (HT9) 
+14030.06c -1.30992e-05     % Duct isotope (HT9) 
+74000.06c -7.91867e-04     % Duct isotope (HT9) 
+23000.06c -7.91867e-04     % Duct isotope (HT9) 
+6000.06c  -3.16747e-04     % Duct isotope (HT9) 
+26054.06c -7.58649e-03     % Duct isotope (HT9) 
+26056.06c -1.23497e-01     % Duct isotope (HT9) 
+26057.06c -2.90310e-03     % Duct isotope (HT9) 
+26058.06c -3.93121e-04     % Duct isotope (HT9) 
+11023.06c -1.05498e-02     % IA-gap coolant isotope (Na) 
+
+
+% ####################################################                      
+%                                                                           
+%    Cell belowcoreradialshield                                             
+%                                                                           
+%    Materials                                                              
+%    -------------------------------------------------                      
+%    Shield-pin: B4C
+%    Coolant:    Na
+%    Duct:       HT9
+%                                                                           
+%    General geometry                                                       
+%    -------------------------------------------------                      
+%    Cell volume: 3.541 m^3 
+%    Axial length: 0.050 m   
+%    Radially between r = 2.445 and 2.665 m 
+%                                                                            
+%    Calculated geometry                                                     
+%    -------------------------------------------------                       
+%    Shield pin diameter: 3.359 cm 
+%    Shield pin pitch:    3.909 cm 
+%    Shield pin P/D:      1.164 
+%                                                                            
+%    Mass fractions                                                          
+%    -------------------------------------------------                       
+%    Shield-pin      = 56.23%
+%    Active coolant  = 14.39%
+%    Duct            = 27.55%
+%    IA-gap coolant  = 1.84%
+%                                                                            
+%    Volume fractions                                                        
+%    -------------------------------------------------                       
+%    Shield-pin      = 48.81% (60.00% in-assembly) 
+%    Active coolant  = 32.54% (40.00% in-assembly) 
+%    Duct            = 7.04%
+%    IA-gap coolant  = 4.14%
+%                                                                            
+%    Cell-averaged mass density (g/cc)                                       
+%    -------------------------------------------------                       
+%    Shield-pin      = 1.10
+%    Active coolant  = 0.28
+%    Duct            = 0.54
+%    IA-gap coolant  = 0.04
+%    Cell total      = 1.96
+%                                                                            
+%    Cell-averaged temperatures (deg. C)                                     
+%    -------------------------------------------------                       
+%    Shield-pin      = 356.1
+%    Active coolant  = 357.1
+%    Duct            = 356.1
+%    IA-gap coolant  = 353.1
+%                                                                            
+%    Component density (g/cc)                                                
+%    -------------------------------------------------                       
+%    Shield-pin     = 2.255
+%    Active coolant = 0.866
+%    Duct           = 7.659
+%    IA-gap coolant = 0.867
+%                                                                            
+%    Component mass (kg/cell)                                                
+%    -------------------------------------------------                       
+%    Shield-pin     = 3897.8
+%    Active coolant = 997.7
+%    Duct           = 1909.7
+%    IA-gap coolant = 127.2
+%                                                                            
+% ######################################################                     
+
+mat belowcoreradialshieldmat -1.95787 rgb  133 37 37 
+5010.06c  -3.92317e-01     % Shield-pin isotope (B4C) 
+5011.06c  -4.79284e-02     % Shield-pin isotope (B4C) 
+6000.06c  -1.22009e-01     % Shield-pin isotope (B4C) 
+11023.06c -1.43923e-01     % Coolant isotope (Na) 
+28058.06c -9.25556e-04     % Duct isotope (HT9) 
+28060.06c -3.68800e-04     % Duct isotope (HT9) 
+28061.06c -1.63005e-05     % Duct isotope (HT9) 
+28062.06c -5.28120e-05     % Duct isotope (HT9) 
+28064.06c -1.38919e-05     % Duct isotope (HT9) 
+24050.06c -1.37968e-03     % Duct isotope (HT9) 
+24052.06c -2.76682e-02     % Duct isotope (HT9) 
+24053.06c -3.19776e-03     % Duct isotope (HT9) 
+24054.06c -8.11000e-04     % Duct isotope (HT9) 
+25055.06c -5.50944e-04     % Duct isotope (HT9) 
+42092.06c -3.91651e-04     % Duct isotope (HT9) 
+42094.06c -2.49430e-04     % Duct isotope (HT9) 
+42095.06c -4.33864e-04     % Duct isotope (HT9) 
+42096.06c -4.59360e-04     % Duct isotope (HT9) 
+42097.06c -2.65749e-04     % Duct isotope (HT9) 
+42098.06c -6.78393e-04     % Duct isotope (HT9) 
+42100.06c -2.76275e-04     % Duct isotope (HT9) 
+14028.06c -6.32714e-04     % Duct isotope (HT9) 
+14029.06c -3.31816e-05     % Duct isotope (HT9) 
+14030.06c -2.27844e-05     % Duct isotope (HT9) 
+74000.06c -1.37736e-03     % Duct isotope (HT9) 
+23000.06c -1.37736e-03     % Duct isotope (HT9) 
+6000.06c  -5.50944e-04     % Duct isotope (HT9) 
+26054.06c -1.31958e-02     % Duct isotope (HT9) 
+26056.06c -2.14809e-01     % Duct isotope (HT9) 
+26057.06c -5.04960e-03     % Duct isotope (HT9) 
+26058.06c -6.83787e-04     % Duct isotope (HT9) 
+11023.06c -1.83502e-02     % IA-gap coolant isotope (Na) 
+
+
+% ####################################################                      
+%                                                                           
+%    Cell abovecoreradialreflector                                          
+%                                                                           
+%    Materials                                                              
+%    -------------------------------------------------                      
+%    Reflector-pin: D9
+%    Coolant:       Na
+%    Duct:          HT9
+%                                                                           
+%    General geometry                                                       
+%    -------------------------------------------------                      
+%    Cell volume:  0.324 m^3 
+%    Axial length: 0.100 m   
+%    Radially between r = 2.224 and 2.445 m 
+%                                                                            
+%    Calculated geometry                                                     
+%    -------------------------------------------------                       
+%    Reflector pin diameter: 1.965 cm 
+%    Reflector pin pitch:    2.774 cm 
+%    Reflector pin P/D:      1.412 
+%                                                                            
+%    Mass fractions                                                          
+%    -------------------------------------------------                       
+%    Reflector-pin   = 72.41%
+%    Active coolant  = 10.62%
+%    Duct            = 15.92%
+%    IA-gap coolant  = 1.04%
+%                                                                            
+%    Volume fractions                                                        
+%    -------------------------------------------------                       
+%    Reflector-pin   = 28.81% (40.00% in-assembly) 
+%    Active coolant  = 43.22% (60.00% in-assembly) 
+%    Duct            = 7.04%
+%    IA-gap coolant  = 4.14%
+%                                                                            
+%    Cell-averaged mass density (g/cc)                                       
+%    -------------------------------------------------                       
+%    Reflector-pin   = 2.45
+%    Active coolant  = 0.36
+%    Duct            = 0.54
+%    IA-gap coolant  = 0.04
+%    Cell total      = 3.38
+%                                                                            
+%    Cell-averaged temperatures (deg. C)                                     
+%    -------------------------------------------------                       
+%    Reflector-pin   = 434.0
+%    Active coolant  = 509.3
+%    Duct            = 434.0
+%    IA-gap coolant  = 431.0
+%                                                                            
+%    Component density (g/cc)                                                
+%    -------------------------------------------------                       
+%    Reflector-pin  = 8.487
+%    Active coolant = 0.830
+%    Duct           = 7.636
+%    IA-gap coolant = 0.849
+%                                                                            
+%    Component mass (kg/cell)                                                
+%    -------------------------------------------------                       
+%    Reflector-pin  = 7911.2
+%    Active coolant = 1160.7
+%    Duct           = 1739.6
+%    IA-gap coolant = 113.8
+%                                                                            
+% ######################################################                     
+
+mat abovecoreradialreflectormat -3.37700 rgb  153 145 145 
+28058.06c -7.54218e-02     % Reflector-pin isotope (D9) 
+28060.06c -3.00528e-02     % Reflector-pin isotope (D9) 
+28061.06c -1.32830e-03     % Reflector-pin isotope (D9) 
+28062.06c -4.30356e-03     % Reflector-pin isotope (D9) 
+28064.06c -1.13202e-03     % Reflector-pin isotope (D9) 
+24050.06c -4.08004e-03     % Reflector-pin isotope (D9) 
+24052.06c -8.18213e-02     % Reflector-pin isotope (D9) 
+24053.06c -9.45653e-03     % Reflector-pin isotope (D9) 
+24054.06c -2.39831e-03     % Reflector-pin isotope (D9) 
+25055.06c -1.44824e-02     % Reflector-pin isotope (D9) 
+42092.06c -2.05903e-03     % Reflector-pin isotope (D9) 
+42094.06c -1.31133e-03     % Reflector-pin isotope (D9) 
+42095.06c -2.28095e-03     % Reflector-pin isotope (D9) 
+42096.06c -2.41499e-03     % Reflector-pin isotope (D9) 
+42097.06c -1.39712e-03     % Reflector-pin isotope (D9) 
+42098.06c -3.56652e-03     % Reflector-pin isotope (D9) 
+42100.06c -1.45246e-03     % Reflector-pin isotope (D9) 
+14028.06c -4.98955e-03     % Reflector-pin isotope (D9) 
+14029.06c -2.61669e-04     % Reflector-pin isotope (D9) 
+14030.06c -1.79677e-04     % Reflector-pin isotope (D9) 
+22046.06c -1.43377e-04     % Reflector-pin isotope (D9) 
+22047.06c -1.32112e-04     % Reflector-pin isotope (D9) 
+22048.06c -1.33682e-03     % Reflector-pin isotope (D9) 
+22049.06c -1.00149e-04     % Reflector-pin isotope (D9) 
+22050.06c -9.78445e-05     % Reflector-pin isotope (D9) 
+6000.06c  -2.89648e-04     % Reflector-pin isotope (D9) 
+26054.06c -2.69648e-02     % Reflector-pin isotope (D9) 
+26056.06c -4.38949e-01     % Reflector-pin isotope (D9) 
+26057.06c -1.03186e-02     % Reflector-pin isotope (D9) 
+26058.06c -1.39728e-03     % Reflector-pin isotope (D9) 
+11023.12c -1.06242e-01     % Coolant isotope (Na) 
+28058.06c -5.34976e-04     % Duct isotope (HT9) 
+28060.06c -2.13168e-04     % Duct isotope (HT9) 
+28061.06c -9.42180e-06     % Duct isotope (HT9) 
+28062.06c -3.05256e-05     % Duct isotope (HT9) 
+28064.06c -8.02957e-06     % Duct isotope (HT9) 
+24050.06c -7.97462e-04     % Duct isotope (HT9) 
+24052.06c -1.59924e-02     % Duct isotope (HT9) 
+24053.06c -1.84832e-03     % Duct isotope (HT9) 
+24054.06c -4.68762e-04     % Duct isotope (HT9) 
+25055.06c -3.18448e-04     % Duct isotope (HT9) 
+42092.06c -2.26376e-04     % Duct isotope (HT9) 
+42094.06c -1.44172e-04     % Duct isotope (HT9) 
+42095.06c -2.50775e-04     % Duct isotope (HT9) 
+42096.06c -2.65512e-04     % Duct isotope (HT9) 
+42097.06c -1.53604e-04     % Duct isotope (HT9) 
+42098.06c -3.92114e-04     % Duct isotope (HT9) 
+42100.06c -1.59688e-04     % Duct isotope (HT9) 
+14028.06c -3.65712e-04     % Duct isotope (HT9) 
+14029.06c -1.91792e-05     % Duct isotope (HT9) 
+14030.06c -1.31695e-05     % Duct isotope (HT9) 
+74000.06c -7.96121e-04     % Duct isotope (HT9) 
+23000.06c -7.96121e-04     % Duct isotope (HT9) 
+6000.06c  -3.18448e-04     % Duct isotope (HT9) 
+26054.06c -7.62725e-03     % Duct isotope (HT9) 
+26056.06c -1.24161e-01     % Duct isotope (HT9) 
+26057.06c -2.91870e-03     % Duct isotope (HT9) 
+26058.06c -3.95233e-04     % Duct isotope (HT9) 
+11023.06c -1.04139e-02     % IA-gap coolant isotope (Na) 
+
+
+% ####################################################                      
+%                                                                           
+%    Cell abovecoreradialshield                                             
+%                                                                           
+%    Materials                                                              
+%    -------------------------------------------------                      
+%    Shield-pin: B4C
+%    Coolant:    Na
+%    Duct:       HT9
+%                                                                           
+%    General geometry                                                       
+%    -------------------------------------------------                      
+%    Cell volume: 3.541 m^3 
+%    Axial length: 0.100 m   
+%    Radially between r = 2.445 and 2.665 m 
+%                                                                            
+%    Calculated geometry                                                     
+%    -------------------------------------------------                       
+%    Shield pin diameter: 3.359 cm 
+%    Shield pin pitch:    3.909 cm 
+%    Shield pin P/D:      1.164 
+%                                                                            
+%    Mass fractions                                                          
+%    -------------------------------------------------                       
+%    Shield-pin      = 56.60%
+%    Active coolant  = 13.91%
+%    Duct            = 27.68%
+%    IA-gap coolant  = 1.81%
+%                                                                            
+%    Volume fractions                                                        
+%    -------------------------------------------------                       
+%    Shield-pin      = 48.81% (60.00% in-assembly) 
+%    Active coolant  = 32.54% (40.00% in-assembly) 
+%    Duct            = 7.04%
+%    IA-gap coolant  = 4.14%
+%                                                                            
+%    Cell-averaged mass density (g/cc)                                       
+%    -------------------------------------------------                       
+%    Shield-pin      = 1.10
+%    Active coolant  = 0.27
+%    Duct            = 0.54
+%    IA-gap coolant  = 0.04
+%    Cell total      = 1.94
+%                                                                            
+%    Cell-averaged temperatures (deg. C)                                     
+%    -------------------------------------------------                       
+%    Shield-pin      = 434.0
+%    Active coolant  = 509.3
+%    Duct            = 434.0
+%    IA-gap coolant  = 431.0
+%                                                                            
+%    Component density (g/cc)                                                
+%    -------------------------------------------------                       
+%    Shield-pin     = 2.252
+%    Active coolant = 0.830
+%    Duct           = 7.636
+%    IA-gap coolant = 0.849
+%                                                                            
+%    Component mass (kg/cell)                                                
+%    -------------------------------------------------                       
+%    Shield-pin     = 3892.6
+%    Active coolant = 956.5
+%    Duct           = 1903.9
+%    IA-gap coolant = 124.5
+%                                                                            
+% ######################################################                     
+
+mat abovecoreradialshieldmat -1.94237 rgb  133 37 37 
+5010.06c  -3.94922e-01     % Shield-pin isotope (B4C) 
+5011.06c  -4.82467e-02     % Shield-pin isotope (B4C) 
+6000.06c  -1.22820e-01     % Shield-pin isotope (B4C) 
+11023.12c -1.39078e-01     % Coolant isotope (Na) 
+28058.06c -9.30110e-04     % Duct isotope (HT9) 
+28060.06c -3.70615e-04     % Duct isotope (HT9) 
+28061.06c -1.63807e-05     % Duct isotope (HT9) 
+28062.06c -5.30719e-05     % Duct isotope (HT9) 
+28064.06c -1.39602e-05     % Duct isotope (HT9) 
+24050.06c -1.38647e-03     % Duct isotope (HT9) 
+24052.06c -2.78043e-02     % Duct isotope (HT9) 
+24053.06c -3.21350e-03     % Duct isotope (HT9) 
+24054.06c -8.14990e-04     % Duct isotope (HT9) 
+25055.06c -5.53655e-04     % Duct isotope (HT9) 
+42092.06c -3.93578e-04     % Duct isotope (HT9) 
+42094.06c -2.50657e-04     % Duct isotope (HT9) 
+42095.06c -4.35998e-04     % Duct isotope (HT9) 
+42096.06c -4.61620e-04     % Duct isotope (HT9) 
+42097.06c -2.67056e-04     % Duct isotope (HT9) 
+42098.06c -6.81731e-04     % Duct isotope (HT9) 
+42100.06c -2.77634e-04     % Duct isotope (HT9) 
+14028.06c -6.35827e-04     % Duct isotope (HT9) 
+14029.06c -3.33449e-05     % Duct isotope (HT9) 
+14030.06c -2.28965e-05     % Duct isotope (HT9) 
+74000.06c -1.38414e-03     % Duct isotope (HT9) 
+23000.06c -1.38414e-03     % Duct isotope (HT9) 
+6000.06c  -5.53655e-04     % Duct isotope (HT9) 
+26054.06c -1.32607e-02     % Duct isotope (HT9) 
+26056.06c -2.15866e-01     % Duct isotope (HT9) 
+26057.06c -5.07445e-03     % Duct isotope (HT9) 
+26058.06c -6.87152e-04     % Duct isotope (HT9) 
+11023.06c -1.81056e-02     % IA-gap coolant isotope (Na) 
+
+
+% ####################################################                      
+%                                                                           
+%    Cell radialreflector1                                   
+%                                                                           
+%    Materials                                                              
+%    -------------------------------------------------                      
+%    Reflector-pin: D9
+%    Coolant:       Na
+%    Duct:          HT9
+%                                                                           
+%    General geometry                                                       
+%    -------------------------------------------------                      
+%    Cell volume: 3.235 m^3 
+%    Axially between  z = 0 and 3.0 m 
+%    Radially between r = 2.224 and 2.445 m 
+%                                                                            
+%    Calculated geometry                                                     
+%    -------------------------------------------------                       
+%    Reflector pin diameter: 1.965 cm 
+%    Reflector pin pitch:    2.774 cm 
+%    Reflector pin P/D:      1.412 
+%                                                                            
+%    Mass fractions                                                          
+%    -------------------------------------------------                       
+%    Reflector-pin   = 72.12%
+%    Active coolant  = 10.99%
+%    Duct            = 15.84%
+%    IA-gap coolant  = 1.05%
+%                                                                            
+%    Volume fractions                                                        
+%    -------------------------------------------------                       
+%    Reflector-pin   = 28.81% (40.00% in-assembly) 
+%    Active coolant  = 43.22% (60.00% in-assembly) 
+%    Duct            = 7.04%
+%    IA-gap coolant  = 4.14%
+%                                                                            
+%    Cell-averaged mass density (g/cc)                                       
+%    -------------------------------------------------                       
+%    Reflector-pin   = 2.46
+%    Active coolant  = 0.37
+%    Duct            = 0.54
+%    IA-gap coolant  = 0.04
+%    Cell total      = 3.41
+%                                                                            
+%    Cell-averaged temperatures (deg. C)                                     
+%    -------------------------------------------------                       
+%    Reflector-pin   = 356.1
+%    Active coolant  = 357.1
+%    Duct            = 356.1
+%    IA-gap coolant  = 353.1
+%                                                                            
+%    Component density (g/cc)                                                
+%    -------------------------------------------------                       
+%    Reflector-pin  = 8.524
+%    Active coolant = 0.866
+%    Duct           = 7.659
+%    IA-gap coolant = 0.867
+%                                                                            
+%    Component mass (kg/cell)                                                
+%    -------------------------------------------------                       
+%    Reflector-pin  = 7945.6
+%    Active coolant = 1210.8
+%    Duct           = 1744.9
+%    IA-gap coolant = 116.2
+%                                                                            
+% ######################################################                     
+
+mat radialreflectormat0 -3.40548 rgb  153 145 145  
+28058.06c -7.51160e-02     % Reflector-pin isotope (D9) 
+28060.06c -2.99310e-02     % Reflector-pin isotope (D9) 
+28061.06c -1.32291e-03     % Reflector-pin isotope (D9) 
+28062.06c -4.28610e-03     % Reflector-pin isotope (D9) 
+28064.06c -1.12743e-03     % Reflector-pin isotope (D9) 
+24050.06c -4.06349e-03     % Reflector-pin isotope (D9) 
+24052.06c -8.14895e-02     % Reflector-pin isotope (D9) 
+24053.06c -9.41818e-03     % Reflector-pin isotope (D9) 
+24054.06c -2.38859e-03     % Reflector-pin isotope (D9) 
+25055.06c -1.44237e-02     % Reflector-pin isotope (D9) 
+42092.06c -2.05067e-03     % Reflector-pin isotope (D9) 
+42094.06c -1.30601e-03     % Reflector-pin isotope (D9) 
+42095.06c -2.27170e-03     % Reflector-pin isotope (D9) 
+42096.06c -2.40520e-03     % Reflector-pin isotope (D9) 
+42097.06c -1.39146e-03     % Reflector-pin isotope (D9) 
+42098.06c -3.55205e-03     % Reflector-pin isotope (D9) 
+42100.06c -1.44657e-03     % Reflector-pin isotope (D9) 
+14028.06c -4.96932e-03     % Reflector-pin isotope (D9) 
+14029.06c -2.60608e-04     % Reflector-pin isotope (D9) 
+14030.06c -1.78948e-04     % Reflector-pin isotope (D9) 
+22046.06c -1.42796e-04     % Reflector-pin isotope (D9) 
+22047.06c -1.31576e-04     % Reflector-pin isotope (D9) 
+22048.06c -1.33140e-03     % Reflector-pin isotope (D9) 
+22049.06c -9.97431e-05     % Reflector-pin isotope (D9) 
+22050.06c -9.74477e-05     % Reflector-pin isotope (D9) 
+6000.06c  -2.88473e-04     % Reflector-pin isotope (D9) 
+26054.06c -2.68555e-02     % Reflector-pin isotope (D9) 
+26056.06c -4.37169e-01     % Reflector-pin isotope (D9) 
+26057.06c -1.02767e-02     % Reflector-pin isotope (D9) 
+26058.06c -1.39161e-03     % Reflector-pin isotope (D9) 
+11023.06c -1.09894e-01     % Coolant isotope (Na) 
+28058.06c -5.32117e-04     % Duct isotope (HT9) 
+28060.06c -2.12029e-04     % Duct isotope (HT9) 
+28061.06c -9.37145e-06     % Duct isotope (HT9) 
+28062.06c -3.03625e-05     % Duct isotope (HT9) 
+28064.06c -7.98666e-06     % Duct isotope (HT9) 
+24050.06c -7.93201e-04     % Duct isotope (HT9) 
+24052.06c -1.59069e-02     % Duct isotope (HT9) 
+24053.06c -1.83845e-03     % Duct isotope (HT9) 
+24054.06c -4.66257e-04     % Duct isotope (HT9) 
+25055.06c -3.16747e-04     % Duct isotope (HT9) 
+42092.06c -2.25166e-04     % Duct isotope (HT9) 
+42094.06c -1.43401e-04     % Duct isotope (HT9) 
+42095.06c -2.49435e-04     % Duct isotope (HT9) 
+42096.06c -2.64094e-04     % Duct isotope (HT9) 
+42097.06c -1.52783e-04     % Duct isotope (HT9) 
+42098.06c -3.90019e-04     % Duct isotope (HT9) 
+42100.06c -1.58835e-04     % Duct isotope (HT9) 
+14028.06c -3.63758e-04     % Duct isotope (HT9) 
+14029.06c -1.90767e-05     % Duct isotope (HT9) 
+14030.06c -1.30992e-05     % Duct isotope (HT9) 
+74000.06c -7.91867e-04     % Duct isotope (HT9) 
+23000.06c -7.91867e-04     % Duct isotope (HT9) 
+6000.06c  -3.16747e-04     % Duct isotope (HT9) 
+26054.06c -7.58649e-03     % Duct isotope (HT9) 
+26056.06c -1.23497e-01     % Duct isotope (HT9) 
+26057.06c -2.90310e-03     % Duct isotope (HT9) 
+26058.06c -3.93121e-04     % Duct isotope (HT9) 
+11023.06c -1.05498e-02     % IA-gap coolant isotope (Na) 
+
+% ####################################################                      
+%                                                                           
+%    Cell radialreflector2                                   
+%                                                                           
+%    Materials                                                              
+%    -------------------------------------------------                      
+%    Reflector-pin: D9
+%    Coolant:       Na
+%    Duct:          HT9
+%                                                                           
+%    General geometry                                                       
+%    -------------------------------------------------                      
+%    Cell volume: 3.235 m^3 
+%    Axially between  z = 0 and 3.0 m 
+%    Radially between r = 2.224 and 2.445 m 
+%                                                                            
+%    Calculated geometry                                                     
+%    -------------------------------------------------                       
+%    Reflector pin diameter: 1.965 cm 
+%    Reflector pin pitch:    2.774 cm 
+%    Reflector pin P/D:      1.412 
+%                                                                            
+%    Mass fractions                                                          
+%    -------------------------------------------------                       
+%    Reflector-pin   = 72.14%
+%    Active coolant  = 10.97%
+%    Duct            = 15.84%
+%    IA-gap coolant  = 1.05%
+%                                                                            
+%    Volume fractions                                                        
+%    -------------------------------------------------                       
+%    Reflector-pin   = 28.81% (40.00% in-assembly) 
+%    Active coolant  = 43.22% (60.00% in-assembly) 
+%    Duct            = 7.04%
+%    IA-gap coolant  = 4.14%
+%                                                                            
+%    Cell-averaged mass density (g/cc)                                       
+%    -------------------------------------------------                       
+%    Reflector-pin   = 2.46
+%    Active coolant  = 0.37
+%    Duct            = 0.54
+%    IA-gap coolant  = 0.04
+%    Cell total      = 3.40
+%                                                                            
+%    Cell-averaged temperatures (deg. C)                                     
+%    -------------------------------------------------                       
+%    Reflector-pin   = 361.3
+%    Active coolant  = 367.2
+%    Duct            = 361.3
+%    IA-gap coolant  = 358.3
+%                                                                            
+%    Component density (g/cc)                                                
+%    -------------------------------------------------                       
+%    Reflector-pin  = 8.521
+%    Active coolant = 0.864
+%    Duct           = 7.657
+%    IA-gap coolant = 0.866
+%                                                                            
+%    Component mass (kg/cell)                                                
+%    -------------------------------------------------                       
+%    Reflector-pin  = 7943.3
+%    Active coolant = 1207.4
+%    Duct           = 1744.5
+%    IA-gap coolant = 116.1
+%                                                                            
+% ######################################################                     
+
+mat radialreflectormat1 -3.40359 rgb  153 145 145  
+28058.06c -7.51362e-02     % Reflector-pin isotope (D9) 
+28060.06c -2.99390e-02     % Reflector-pin isotope (D9) 
+28061.06c -1.32327e-03     % Reflector-pin isotope (D9) 
+28062.06c -4.28726e-03     % Reflector-pin isotope (D9) 
+28064.06c -1.12774e-03     % Reflector-pin isotope (D9) 
+24050.06c -4.06459e-03     % Reflector-pin isotope (D9) 
+24052.06c -8.15115e-02     % Reflector-pin isotope (D9) 
+24053.06c -9.42072e-03     % Reflector-pin isotope (D9) 
+24054.06c -2.38923e-03     % Reflector-pin isotope (D9) 
+25055.06c -1.44276e-02     % Reflector-pin isotope (D9) 
+42092.06c -2.05123e-03     % Reflector-pin isotope (D9) 
+42094.06c -1.30636e-03     % Reflector-pin isotope (D9) 
+42095.06c -2.27231e-03     % Reflector-pin isotope (D9) 
+42096.06c -2.40585e-03     % Reflector-pin isotope (D9) 
+42097.06c -1.39183e-03     % Reflector-pin isotope (D9) 
+42098.06c -3.55301e-03     % Reflector-pin isotope (D9) 
+42100.06c -1.44696e-03     % Reflector-pin isotope (D9) 
+14028.06c -4.97066e-03     % Reflector-pin isotope (D9) 
+14029.06c -2.60678e-04     % Reflector-pin isotope (D9) 
+14030.06c -1.78997e-04     % Reflector-pin isotope (D9) 
+22046.06c -1.42834e-04     % Reflector-pin isotope (D9) 
+22047.06c -1.31611e-04     % Reflector-pin isotope (D9) 
+22048.06c -1.33175e-03     % Reflector-pin isotope (D9) 
+22049.06c -9.97700e-05     % Reflector-pin isotope (D9) 
+22050.06c -9.74740e-05     % Reflector-pin isotope (D9) 
+6000.06c  -2.88551e-04     % Reflector-pin isotope (D9) 
+26054.06c -2.68627e-02     % Reflector-pin isotope (D9) 
+26056.06c -4.37287e-01     % Reflector-pin isotope (D9) 
+26057.06c -1.02795e-02     % Reflector-pin isotope (D9) 
+26058.06c -1.39199e-03     % Reflector-pin isotope (D9) 
+11023.06c -1.09651e-01     % Coolant isotope (Na) 
+28058.06c -5.32308e-04     % Duct isotope (HT9) 
+28060.06c -2.12105e-04     % Duct isotope (HT9) 
+28061.06c -9.37480e-06     % Duct isotope (HT9) 
+28062.06c -3.03734e-05     % Duct isotope (HT9) 
+28064.06c -7.98952e-06     % Duct isotope (HT9) 
+24050.06c -7.93485e-04     % Duct isotope (HT9) 
+24052.06c -1.59126e-02     % Duct isotope (HT9) 
+24053.06c -1.83910e-03     % Duct isotope (HT9) 
+24054.06c -4.66424e-04     % Duct isotope (HT9) 
+25055.06c -3.16860e-04     % Duct isotope (HT9) 
+42092.06c -2.25247e-04     % Duct isotope (HT9) 
+42094.06c -1.43453e-04     % Duct isotope (HT9) 
+42095.06c -2.49525e-04     % Duct isotope (HT9) 
+42096.06c -2.64188e-04     % Duct isotope (HT9) 
+42097.06c -1.52838e-04     % Duct isotope (HT9) 
+42098.06c -3.90159e-04     % Duct isotope (HT9) 
+42100.06c -1.58892e-04     % Duct isotope (HT9) 
+14028.06c -3.63888e-04     % Duct isotope (HT9) 
+14029.06c -1.90835e-05     % Duct isotope (HT9) 
+14030.06c -1.31038e-05     % Duct isotope (HT9) 
+74000.06c -7.92150e-04     % Duct isotope (HT9) 
+23000.06c -7.92150e-04     % Duct isotope (HT9) 
+6000.06c  -3.16860e-04     % Duct isotope (HT9) 
+26054.06c -7.58921e-03     % Duct isotope (HT9) 
+26056.06c -1.23541e-01     % Duct isotope (HT9) 
+26057.06c -2.90414e-03     % Duct isotope (HT9) 
+26058.06c -3.93261e-04     % Duct isotope (HT9) 
+11023.06c -1.05408e-02     % IA-gap coolant isotope (Na) 
+
+% ####################################################                      
+%                                                                           
+%    Cell radialreflector3                                   
+%                                                                           
+%    Materials                                                              
+%    -------------------------------------------------                      
+%    Reflector-pin: D9
+%    Coolant:       Na
+%    Duct:          HT9
+%                                                                           
+%    General geometry                                                       
+%    -------------------------------------------------                      
+%    Cell volume: 3.235 m^3 
+%    Axially between  z = 0 and 3.0 m 
+%    Radially between r = 2.224 and 2.445 m 
+%                                                                            
+%    Calculated geometry                                                     
+%    -------------------------------------------------                       
+%    Reflector pin diameter: 1.965 cm 
+%    Reflector pin pitch:    2.774 cm 
+%    Reflector pin P/D:      1.412 
+%                                                                            
+%    Mass fractions                                                          
+%    -------------------------------------------------                       
+%    Reflector-pin   = 72.17%
+%    Active coolant  = 10.92%
+%    Duct            = 15.85%
+%    IA-gap coolant  = 1.05%
+%                                                                            
+%    Volume fractions                                                        
+%    -------------------------------------------------                       
+%    Reflector-pin   = 28.81% (40.00% in-assembly) 
+%    Active coolant  = 43.22% (60.00% in-assembly) 
+%    Duct            = 7.04%
+%    IA-gap coolant  = 4.14%
+%                                                                            
+%    Cell-averaged mass density (g/cc)                                       
+%    -------------------------------------------------                       
+%    Reflector-pin   = 2.45
+%    Active coolant  = 0.37
+%    Duct            = 0.54
+%    IA-gap coolant  = 0.04
+%    Cell total      = 3.40
+%                                                                            
+%    Cell-averaged temperatures (deg. C)                                     
+%    -------------------------------------------------                       
+%    Reflector-pin   = 370.3
+%    Active coolant  = 384.9
+%    Duct            = 370.3
+%    IA-gap coolant  = 367.3
+%                                                                            
+%    Component density (g/cc)                                                
+%    -------------------------------------------------                       
+%    Reflector-pin  = 8.517
+%    Active coolant = 0.859
+%    Duct           = 7.655
+%    IA-gap coolant = 0.863
+%                                                                            
+%    Component mass (kg/cell)                                                
+%    -------------------------------------------------                       
+%    Reflector-pin  = 7939.4
+%    Active coolant = 1201.6
+%    Duct           = 1743.9
+%    IA-gap coolant = 115.8
+%                                                                            
+% ######################################################                     
+
+mat radialreflectormat2 -3.40030 rgb  153 145 145  
+28058.06c -7.51714e-02     % Reflector-pin isotope (D9) 
+28060.06c -2.99531e-02     % Reflector-pin isotope (D9) 
+28061.06c -1.32389e-03     % Reflector-pin isotope (D9) 
+28062.06c -4.28927e-03     % Reflector-pin isotope (D9) 
+28064.06c -1.12826e-03     % Reflector-pin isotope (D9) 
+24050.06c -4.06649e-03     % Reflector-pin isotope (D9) 
+24052.06c -8.15496e-02     % Reflector-pin isotope (D9) 
+24053.06c -9.42513e-03     % Reflector-pin isotope (D9) 
+24054.06c -2.39035e-03     % Reflector-pin isotope (D9) 
+25055.06c -1.44343e-02     % Reflector-pin isotope (D9) 
+42092.06c -2.05219e-03     % Reflector-pin isotope (D9) 
+42094.06c -1.30697e-03     % Reflector-pin isotope (D9) 
+42095.06c -2.27338e-03     % Reflector-pin isotope (D9) 
+42096.06c -2.40697e-03     % Reflector-pin isotope (D9) 
+42097.06c -1.39248e-03     % Reflector-pin isotope (D9) 
+42098.06c -3.55467e-03     % Reflector-pin isotope (D9) 
+42100.06c -1.44764e-03     % Reflector-pin isotope (D9) 
+14028.06c -4.97299e-03     % Reflector-pin isotope (D9) 
+14029.06c -2.60800e-04     % Reflector-pin isotope (D9) 
+14030.06c -1.79080e-04     % Reflector-pin isotope (D9) 
+22046.06c -1.42901e-04     % Reflector-pin isotope (D9) 
+22047.06c -1.31673e-04     % Reflector-pin isotope (D9) 
+22048.06c -1.33238e-03     % Reflector-pin isotope (D9) 
+22049.06c -9.98167e-05     % Reflector-pin isotope (D9) 
+22050.06c -9.75196e-05     % Reflector-pin isotope (D9) 
+6000.06c  -2.88686e-04     % Reflector-pin isotope (D9) 
+26054.06c -2.68753e-02     % Reflector-pin isotope (D9) 
+26056.06c -4.37491e-01     % Reflector-pin isotope (D9) 
+26057.06c -1.02843e-02     % Reflector-pin isotope (D9) 
+26058.06c -1.39264e-03     % Reflector-pin isotope (D9) 
+11023.06c -1.09231e-01     % Coolant isotope (Na) 
+28058.06c -5.32637e-04     % Duct isotope (HT9) 
+28060.06c -2.12236e-04     % Duct isotope (HT9) 
+28061.06c -9.38061e-06     % Duct isotope (HT9) 
+28062.06c -3.03922e-05     % Duct isotope (HT9) 
+28064.06c -7.99446e-06     % Duct isotope (HT9) 
+24050.06c -7.93976e-04     % Duct isotope (HT9) 
+24052.06c -1.59224e-02     % Duct isotope (HT9) 
+24053.06c -1.84024e-03     % Duct isotope (HT9) 
+24054.06c -4.66713e-04     % Duct isotope (HT9) 
+25055.06c -3.17056e-04     % Duct isotope (HT9) 
+42092.06c -2.25386e-04     % Duct isotope (HT9) 
+42094.06c -1.43541e-04     % Duct isotope (HT9) 
+42095.06c -2.49679e-04     % Duct isotope (HT9) 
+42096.06c -2.64352e-04     % Duct isotope (HT9) 
+42097.06c -1.52933e-04     % Duct isotope (HT9) 
+42098.06c -3.90400e-04     % Duct isotope (HT9) 
+42100.06c -1.58990e-04     % Duct isotope (HT9) 
+14028.06c -3.64113e-04     % Duct isotope (HT9) 
+14029.06c -1.90953e-05     % Duct isotope (HT9) 
+14030.06c -1.31119e-05     % Duct isotope (HT9) 
+74000.06c -7.92641e-04     % Duct isotope (HT9) 
+23000.06c -7.92641e-04     % Duct isotope (HT9) 
+6000.06c  -3.17056e-04     % Duct isotope (HT9) 
+26054.06c -7.59391e-03     % Duct isotope (HT9) 
+26056.06c -1.23618e-01     % Duct isotope (HT9) 
+26057.06c -2.90594e-03     % Duct isotope (HT9) 
+26058.06c -3.93505e-04     % Duct isotope (HT9) 
+11023.06c -1.05251e-02     % IA-gap coolant isotope (Na) 
+
+% ####################################################                      
+%                                                                           
+%    Cell radialreflector4                                   
+%                                                                           
+%    Materials                                                              
+%    -------------------------------------------------                      
+%    Reflector-pin: D9
+%    Coolant:       Na
+%    Duct:          HT9
+%                                                                           
+%    General geometry                                                       
+%    -------------------------------------------------                      
+%    Cell volume: 3.235 m^3 
+%    Axially between  z = 0 and 3.0 m 
+%    Radially between r = 2.224 and 2.445 m 
+%                                                                            
+%    Calculated geometry                                                     
+%    -------------------------------------------------                       
+%    Reflector pin diameter: 1.965 cm 
+%    Reflector pin pitch:    2.774 cm 
+%    Reflector pin P/D:      1.412 
+%                                                                            
+%    Mass fractions                                                          
+%    -------------------------------------------------                       
+%    Reflector-pin   = 72.21%
+%    Active coolant  = 10.87%
+%    Duct            = 15.87%
+%    IA-gap coolant  = 1.05%
+%                                                                            
+%    Volume fractions                                                        
+%    -------------------------------------------------                       
+%    Reflector-pin   = 28.81% (40.00% in-assembly) 
+%    Active coolant  = 43.22% (60.00% in-assembly) 
+%    Duct            = 7.04%
+%    IA-gap coolant  = 4.14%
+%                                                                            
+%    Cell-averaged mass density (g/cc)                                       
+%    -------------------------------------------------                       
+%    Reflector-pin   = 2.45
+%    Active coolant  = 0.37
+%    Duct            = 0.54
+%    IA-gap coolant  = 0.04
+%    Cell total      = 3.40
+%                                                                            
+%    Cell-averaged temperatures (deg. C)                                     
+%    -------------------------------------------------                       
+%    Reflector-pin   = 381.8
+%    Active coolant  = 407.4
+%    Duct            = 381.8
+%    IA-gap coolant  = 378.8
+%                                                                            
+%    Component density (g/cc)                                                
+%    -------------------------------------------------                       
+%    Reflector-pin  = 8.512
+%    Active coolant = 0.854
+%    Duct           = 7.651
+%    IA-gap coolant = 0.861
+%                                                                            
+%    Component mass (kg/cell)                                                
+%    -------------------------------------------------                       
+%    Reflector-pin  = 7934.3
+%    Active coolant = 1194.2
+%    Duct           = 1743.1
+%    IA-gap coolant = 115.4
+%                                                                            
+% ######################################################                     
+
+mat radialreflectormat3 -3.39609 rgb  153 145 145  
+28058.06c -7.52165e-02     % Reflector-pin isotope (D9) 
+28060.06c -2.99710e-02     % Reflector-pin isotope (D9) 
+28061.06c -1.32469e-03     % Reflector-pin isotope (D9) 
+28062.06c -4.29184e-03     % Reflector-pin isotope (D9) 
+28064.06c -1.12894e-03     % Reflector-pin isotope (D9) 
+24050.06c -4.06893e-03     % Reflector-pin isotope (D9) 
+24052.06c -8.15986e-02     % Reflector-pin isotope (D9) 
+24053.06c -9.43079e-03     % Reflector-pin isotope (D9) 
+24054.06c -2.39179e-03     % Reflector-pin isotope (D9) 
+25055.06c -1.44430e-02     % Reflector-pin isotope (D9) 
+42092.06c -2.05342e-03     % Reflector-pin isotope (D9) 
+42094.06c -1.30776e-03     % Reflector-pin isotope (D9) 
+42095.06c -2.27474e-03     % Reflector-pin isotope (D9) 
+42096.06c -2.40842e-03     % Reflector-pin isotope (D9) 
+42097.06c -1.39332e-03     % Reflector-pin isotope (D9) 
+42098.06c -3.55681e-03     % Reflector-pin isotope (D9) 
+42100.06c -1.44851e-03     % Reflector-pin isotope (D9) 
+14028.06c -4.97597e-03     % Reflector-pin isotope (D9) 
+14029.06c -2.60957e-04     % Reflector-pin isotope (D9) 
+14030.06c -1.79188e-04     % Reflector-pin isotope (D9) 
+22046.06c -1.42987e-04     % Reflector-pin isotope (D9) 
+22047.06c -1.31752e-04     % Reflector-pin isotope (D9) 
+22048.06c -1.33318e-03     % Reflector-pin isotope (D9) 
+22049.06c -9.98766e-05     % Reflector-pin isotope (D9) 
+22050.06c -9.75782e-05     % Reflector-pin isotope (D9) 
+6000.06c  -2.88859e-04     % Reflector-pin isotope (D9) 
+26054.06c -2.68914e-02     % Reflector-pin isotope (D9) 
+26056.06c -4.37754e-01     % Reflector-pin isotope (D9) 
+26057.06c -1.02905e-02     % Reflector-pin isotope (D9) 
+26058.06c -1.39347e-03     % Reflector-pin isotope (D9) 
+11023.06c -1.08692e-01     % Coolant isotope (Na) 
+28058.06c -5.33060e-04     % Duct isotope (HT9) 
+28060.06c -2.12405e-04     % Duct isotope (HT9) 
+28061.06c -9.38805e-06     % Duct isotope (HT9) 
+28062.06c -3.04163e-05     % Duct isotope (HT9) 
+28064.06c -8.00080e-06     % Duct isotope (HT9) 
+24050.06c -7.94606e-04     % Duct isotope (HT9) 
+24052.06c -1.59351e-02     % Duct isotope (HT9) 
+24053.06c -1.84170e-03     % Duct isotope (HT9) 
+24054.06c -4.67083e-04     % Duct isotope (HT9) 
+25055.06c -3.17308e-04     % Duct isotope (HT9) 
+42092.06c -2.25565e-04     % Duct isotope (HT9) 
+42094.06c -1.43655e-04     % Duct isotope (HT9) 
+42095.06c -2.49877e-04     % Duct isotope (HT9) 
+42096.06c -2.64561e-04     % Duct isotope (HT9) 
+42097.06c -1.53054e-04     % Duct isotope (HT9) 
+42098.06c -3.90710e-04     % Duct isotope (HT9) 
+42100.06c -1.59116e-04     % Duct isotope (HT9) 
+14028.06c -3.64402e-04     % Duct isotope (HT9) 
+14029.06c -1.91105e-05     % Duct isotope (HT9) 
+14030.06c -1.31223e-05     % Duct isotope (HT9) 
+74000.06c -7.93269e-04     % Duct isotope (HT9) 
+23000.06c -7.93269e-04     % Duct isotope (HT9) 
+6000.06c  -3.17308e-04     % Duct isotope (HT9) 
+26054.06c -7.59993e-03     % Duct isotope (HT9) 
+26056.06c -1.23716e-01     % Duct isotope (HT9) 
+26057.06c -2.90824e-03     % Duct isotope (HT9) 
+26058.06c -3.93817e-04     % Duct isotope (HT9) 
+11023.06c -1.05051e-02     % IA-gap coolant isotope (Na) 
+
+% ####################################################                      
+%                                                                           
+%    Cell radialreflector5                                   
+%                                                                           
+%    Materials                                                              
+%    -------------------------------------------------                      
+%    Reflector-pin: D9
+%    Coolant:       Na
+%    Duct:          HT9
+%                                                                           
+%    General geometry                                                       
+%    -------------------------------------------------                      
+%    Cell volume: 3.235 m^3 
+%    Axially between  z = 0 and 3.0 m 
+%    Radially between r = 2.224 and 2.445 m 
+%                                                                            
+%    Calculated geometry                                                     
+%    -------------------------------------------------                       
+%    Reflector pin diameter: 1.965 cm 
+%    Reflector pin pitch:    2.774 cm 
+%    Reflector pin P/D:      1.412 
+%                                                                            
+%    Mass fractions                                                          
+%    -------------------------------------------------                       
+%    Reflector-pin   = 72.26%
+%    Active coolant  = 10.81%
+%    Duct            = 15.88%
+%    IA-gap coolant  = 1.05%
+%                                                                            
+%    Volume fractions                                                        
+%    -------------------------------------------------                       
+%    Reflector-pin   = 28.81% (40.00% in-assembly) 
+%    Active coolant  = 43.22% (60.00% in-assembly) 
+%    Duct            = 7.04%
+%    IA-gap coolant  = 4.14%
+%                                                                            
+%    Cell-averaged mass density (g/cc)                                       
+%    -------------------------------------------------                       
+%    Reflector-pin   = 2.45
+%    Active coolant  = 0.37
+%    Duct            = 0.54
+%    IA-gap coolant  = 0.04
+%    Cell total      = 3.39
+%                                                                            
+%    Cell-averaged temperatures (deg. C)                                     
+%    -------------------------------------------------                       
+%    Reflector-pin   = 395.1
+%    Active coolant  = 433.2
+%    Duct            = 395.1
+%    IA-gap coolant  = 392.1
+%                                                                            
+%    Component density (g/cc)                                                
+%    -------------------------------------------------                       
+%    Reflector-pin  = 8.505
+%    Active coolant = 0.848
+%    Duct           = 7.647
+%    IA-gap coolant = 0.858
+%                                                                            
+%    Component mass (kg/cell)                                                
+%    -------------------------------------------------                       
+%    Reflector-pin  = 7928.5
+%    Active coolant = 1185.7
+%    Duct           = 1742.2
+%    IA-gap coolant = 115.0
+%                                                                            
+% ######################################################                     
+
+mat radialreflectormat4 -3.39126 rgb  153 145 145  
+28058.06c -7.52683e-02     % Reflector-pin isotope (D9) 
+28060.06c -2.99916e-02     % Reflector-pin isotope (D9) 
+28061.06c -1.32560e-03     % Reflector-pin isotope (D9) 
+28062.06c -4.29479e-03     % Reflector-pin isotope (D9) 
+28064.06c -1.12972e-03     % Reflector-pin isotope (D9) 
+24050.06c -4.07173e-03     % Reflector-pin isotope (D9) 
+24052.06c -8.16547e-02     % Reflector-pin isotope (D9) 
+24053.06c -9.43727e-03     % Reflector-pin isotope (D9) 
+24054.06c -2.39343e-03     % Reflector-pin isotope (D9) 
+25055.06c -1.44529e-02     % Reflector-pin isotope (D9) 
+42092.06c -2.05483e-03     % Reflector-pin isotope (D9) 
+42094.06c -1.30866e-03     % Reflector-pin isotope (D9) 
+42095.06c -2.27631e-03     % Reflector-pin isotope (D9) 
+42096.06c -2.41008e-03     % Reflector-pin isotope (D9) 
+42097.06c -1.39428e-03     % Reflector-pin isotope (D9) 
+42098.06c -3.55925e-03     % Reflector-pin isotope (D9) 
+42100.06c -1.44950e-03     % Reflector-pin isotope (D9) 
+14028.06c -4.97939e-03     % Reflector-pin isotope (D9) 
+14029.06c -2.61136e-04     % Reflector-pin isotope (D9) 
+14030.06c -1.79311e-04     % Reflector-pin isotope (D9) 
+22046.06c -1.43085e-04     % Reflector-pin isotope (D9) 
+22047.06c -1.31843e-04     % Reflector-pin isotope (D9) 
+22048.06c -1.33409e-03     % Reflector-pin isotope (D9) 
+22049.06c -9.99453e-05     % Reflector-pin isotope (D9) 
+22050.06c -9.76453e-05     % Reflector-pin isotope (D9) 
+6000.06c  -2.89058e-04     % Reflector-pin isotope (D9) 
+26054.06c -2.69099e-02     % Reflector-pin isotope (D9) 
+26056.06c -4.38055e-01     % Reflector-pin isotope (D9) 
+26057.06c -1.02975e-02     % Reflector-pin isotope (D9) 
+26058.06c -1.39443e-03     % Reflector-pin isotope (D9) 
+11023.06c -1.08075e-01     % Coolant isotope (Na) 
+28058.06c -5.33543e-04     % Duct isotope (HT9) 
+28060.06c -2.12597e-04     % Duct isotope (HT9) 
+28061.06c -9.39657e-06     % Duct isotope (HT9) 
+28062.06c -3.04439e-05     % Duct isotope (HT9) 
+28064.06c -8.00806e-06     % Duct isotope (HT9) 
+24050.06c -7.95327e-04     % Duct isotope (HT9) 
+24052.06c -1.59495e-02     % Duct isotope (HT9) 
+24053.06c -1.84337e-03     % Duct isotope (HT9) 
+24054.06c -4.67507e-04     % Duct isotope (HT9) 
+25055.06c -3.17596e-04     % Duct isotope (HT9) 
+42092.06c -2.25770e-04     % Duct isotope (HT9) 
+42094.06c -1.43786e-04     % Duct isotope (HT9) 
+42095.06c -2.50104e-04     % Duct isotope (HT9) 
+42096.06c -2.64801e-04     % Duct isotope (HT9) 
+42097.06c -1.53193e-04     % Duct isotope (HT9) 
+42098.06c -3.91064e-04     % Duct isotope (HT9) 
+42100.06c -1.59261e-04     % Duct isotope (HT9) 
+14028.06c -3.64733e-04     % Duct isotope (HT9) 
+14029.06c -1.91278e-05     % Duct isotope (HT9) 
+14030.06c -1.31343e-05     % Duct isotope (HT9) 
+74000.06c -7.93989e-04     % Duct isotope (HT9) 
+23000.06c -7.93989e-04     % Duct isotope (HT9) 
+6000.06c  -3.17596e-04     % Duct isotope (HT9) 
+26054.06c -7.60682e-03     % Duct isotope (HT9) 
+26056.06c -1.23828e-01     % Duct isotope (HT9) 
+26057.06c -2.91088e-03     % Duct isotope (HT9) 
+26058.06c -3.94174e-04     % Duct isotope (HT9) 
+11023.06c -1.04821e-02     % IA-gap coolant isotope (Na) 
+
+% ####################################################                      
+%                                                                           
+%    Cell radialreflector6                                   
+%                                                                           
+%    Materials                                                              
+%    -------------------------------------------------                      
+%    Reflector-pin: D9
+%    Coolant:       Na
+%    Duct:          HT9
+%                                                                           
+%    General geometry                                                       
+%    -------------------------------------------------                      
+%    Cell volume: 3.235 m^3 
+%    Axially between  z = 0 and 3.0 m 
+%    Radially between r = 2.224 and 2.445 m 
+%                                                                            
+%    Calculated geometry                                                     
+%    -------------------------------------------------                       
+%    Reflector pin diameter: 1.965 cm 
+%    Reflector pin pitch:    2.774 cm 
+%    Reflector pin P/D:      1.412 
+%                                                                            
+%    Mass fractions                                                          
+%    -------------------------------------------------                       
+%    Reflector-pin   = 72.31%
+%    Active coolant  = 10.75%
+%    Duct            = 15.89%
+%    IA-gap coolant  = 1.05%
+%                                                                            
+%    Volume fractions                                                        
+%    -------------------------------------------------                       
+%    Reflector-pin   = 28.81% (40.00% in-assembly) 
+%    Active coolant  = 43.22% (60.00% in-assembly) 
+%    Duct            = 7.04%
+%    IA-gap coolant  = 4.14%
+%                                                                            
+%    Cell-averaged mass density (g/cc)                                       
+%    -------------------------------------------------                       
+%    Reflector-pin   = 2.45
+%    Active coolant  = 0.36
+%    Duct            = 0.54
+%    IA-gap coolant  = 0.04
+%    Cell total      = 3.39
+%                                                                            
+%    Cell-averaged temperatures (deg. C)                                     
+%    -------------------------------------------------                       
+%    Reflector-pin   = 408.3
+%    Active coolant  = 459.0
+%    Duct            = 408.3
+%    IA-gap coolant  = 405.3
+%                                                                            
+%    Component density (g/cc)                                                
+%    -------------------------------------------------                       
+%    Reflector-pin  = 8.499
+%    Active coolant = 0.842
+%    Duct           = 7.643
+%    IA-gap coolant = 0.855
+%                                                                            
+%    Component mass (kg/cell)                                                
+%    -------------------------------------------------                       
+%    Reflector-pin  = 7922.7
+%    Active coolant = 1177.3
+%    Duct           = 1741.3
+%    IA-gap coolant = 114.6
+%                                                                            
+% ######################################################                     
+
+mat radialreflectormat5 -3.38644 rgb  153 145 145  
+28058.06c -7.53201e-02     % Reflector-pin isotope (D9) 
+28060.06c -3.00123e-02     % Reflector-pin isotope (D9) 
+28061.06c -1.32651e-03     % Reflector-pin isotope (D9) 
+28062.06c -4.29775e-03     % Reflector-pin isotope (D9) 
+28064.06c -1.13050e-03     % Reflector-pin isotope (D9) 
+24050.06c -4.07453e-03     % Reflector-pin isotope (D9) 
+24052.06c -8.17110e-02     % Reflector-pin isotope (D9) 
+24053.06c -9.44378e-03     % Reflector-pin isotope (D9) 
+24054.06c -2.39508e-03     % Reflector-pin isotope (D9) 
+25055.06c -1.44629e-02     % Reflector-pin isotope (D9) 
+42092.06c -2.05625e-03     % Reflector-pin isotope (D9) 
+42094.06c -1.30956e-03     % Reflector-pin isotope (D9) 
+42095.06c -2.27788e-03     % Reflector-pin isotope (D9) 
+42096.06c -2.41174e-03     % Reflector-pin isotope (D9) 
+42097.06c -1.39524e-03     % Reflector-pin isotope (D9) 
+42098.06c -3.56171e-03     % Reflector-pin isotope (D9) 
+42100.06c -1.45050e-03     % Reflector-pin isotope (D9) 
+14028.06c -4.98282e-03     % Reflector-pin isotope (D9) 
+14029.06c -2.61316e-04     % Reflector-pin isotope (D9) 
+14030.06c -1.79435e-04     % Reflector-pin isotope (D9) 
+22046.06c -1.43184e-04     % Reflector-pin isotope (D9) 
+22047.06c -1.31934e-04     % Reflector-pin isotope (D9) 
+22048.06c -1.33501e-03     % Reflector-pin isotope (D9) 
+22049.06c -1.00014e-04     % Reflector-pin isotope (D9) 
+22050.06c -9.77126e-05     % Reflector-pin isotope (D9) 
+6000.06c  -2.89257e-04     % Reflector-pin isotope (D9) 
+26054.06c -2.69285e-02     % Reflector-pin isotope (D9) 
+26056.06c -4.38357e-01     % Reflector-pin isotope (D9) 
+26057.06c -1.03046e-02     % Reflector-pin isotope (D9) 
+26058.06c -1.39539e-03     % Reflector-pin isotope (D9) 
+11023.06c -1.07456e-01     % Coolant isotope (Na) 
+28058.06c -5.34028e-04     % Duct isotope (HT9) 
+28060.06c -2.12790e-04     % Duct isotope (HT9) 
+28061.06c -9.40510e-06     % Duct isotope (HT9) 
+28062.06c -3.04715e-05     % Duct isotope (HT9) 
+28064.06c -8.01533e-06     % Duct isotope (HT9) 
+24050.06c -7.96049e-04     % Duct isotope (HT9) 
+24052.06c -1.59640e-02     % Duct isotope (HT9) 
+24053.06c -1.84505e-03     % Duct isotope (HT9) 
+24054.06c -4.67931e-04     % Duct isotope (HT9) 
+25055.06c -3.17884e-04     % Duct isotope (HT9) 
+42092.06c -2.25975e-04     % Duct isotope (HT9) 
+42094.06c -1.43916e-04     % Duct isotope (HT9) 
+42095.06c -2.50331e-04     % Duct isotope (HT9) 
+42096.06c -2.65042e-04     % Duct isotope (HT9) 
+42097.06c -1.53332e-04     % Duct isotope (HT9) 
+42098.06c -3.91419e-04     % Duct isotope (HT9) 
+42100.06c -1.59405e-04     % Duct isotope (HT9) 
+14028.06c -3.65064e-04     % Duct isotope (HT9) 
+14029.06c -1.91452e-05     % Duct isotope (HT9) 
+14030.06c -1.31462e-05     % Duct isotope (HT9) 
+74000.06c -7.94710e-04     % Duct isotope (HT9) 
+23000.06c -7.94710e-04     % Duct isotope (HT9) 
+6000.06c  -3.17884e-04     % Duct isotope (HT9) 
+26054.06c -7.61373e-03     % Duct isotope (HT9) 
+26056.06c -1.23941e-01     % Duct isotope (HT9) 
+26057.06c -2.91352e-03     % Duct isotope (HT9) 
+26058.06c -3.94532e-04     % Duct isotope (HT9) 
+11023.06c -1.04590e-02     % IA-gap coolant isotope (Na) 
+
+% ####################################################                      
+%                                                                           
+%    Cell radialreflector7                                   
+%                                                                           
+%    Materials                                                              
+%    -------------------------------------------------                      
+%    Reflector-pin: D9
+%    Coolant:       Na
+%    Duct:          HT9
+%                                                                           
+%    General geometry                                                       
+%    -------------------------------------------------                      
+%    Cell volume: 3.235 m^3 
+%    Axially between  z = 0 and 3.0 m 
+%    Radially between r = 2.224 and 2.445 m 
+%                                                                            
+%    Calculated geometry                                                     
+%    -------------------------------------------------                       
+%    Reflector pin diameter: 1.965 cm 
+%    Reflector pin pitch:    2.774 cm 
+%    Reflector pin P/D:      1.412 
+%                                                                            
+%    Mass fractions                                                          
+%    -------------------------------------------------                       
+%    Reflector-pin   = 72.36%
+%    Active coolant  = 10.69%
+%    Duct            = 15.91%
+%    IA-gap coolant  = 1.04%
+%                                                                            
+%    Volume fractions                                                        
+%    -------------------------------------------------                       
+%    Reflector-pin   = 28.81% (40.00% in-assembly) 
+%    Active coolant  = 43.22% (60.00% in-assembly) 
+%    Duct            = 7.04%
+%    IA-gap coolant  = 4.14%
+%                                                                            
+%    Cell-averaged mass density (g/cc)                                       
+%    -------------------------------------------------                       
+%    Reflector-pin   = 2.45
+%    Active coolant  = 0.36
+%    Duct            = 0.54
+%    IA-gap coolant  = 0.04
+%    Cell total      = 3.38
+%                                                                            
+%    Cell-averaged temperatures (deg. C)                                     
+%    -------------------------------------------------                       
+%    Reflector-pin   = 419.8
+%    Active coolant  = 481.5
+%    Duct            = 419.8
+%    IA-gap coolant  = 416.8
+%                                                                            
+%    Component density (g/cc)                                                
+%    -------------------------------------------------                       
+%    Reflector-pin  = 8.494
+%    Active coolant = 0.837
+%    Duct           = 7.640
+%    IA-gap coolant = 0.852
+%                                                                            
+%    Component mass (kg/cell)                                                
+%    -------------------------------------------------                       
+%    Reflector-pin  = 7917.5
+%    Active coolant = 1169.9
+%    Duct           = 1740.6
+%    IA-gap coolant = 114.2
+%                                                                            
+% ######################################################                     
+
+mat radialreflectormat6 -3.38221 rgb  153 145 145  
+28058.06c -7.53656e-02     % Reflector-pin isotope (D9) 
+28060.06c -3.00304e-02     % Reflector-pin isotope (D9) 
+28061.06c -1.32731e-03     % Reflector-pin isotope (D9) 
+28062.06c -4.30035e-03     % Reflector-pin isotope (D9) 
+28064.06c -1.13118e-03     % Reflector-pin isotope (D9) 
+24050.06c -4.07700e-03     % Reflector-pin isotope (D9) 
+24052.06c -8.17603e-02     % Reflector-pin isotope (D9) 
+24053.06c -9.44948e-03     % Reflector-pin isotope (D9) 
+24054.06c -2.39653e-03     % Reflector-pin isotope (D9) 
+25055.06c -1.44716e-02     % Reflector-pin isotope (D9) 
+42092.06c -2.05749e-03     % Reflector-pin isotope (D9) 
+42094.06c -1.31035e-03     % Reflector-pin isotope (D9) 
+42095.06c -2.27925e-03     % Reflector-pin isotope (D9) 
+42096.06c -2.41319e-03     % Reflector-pin isotope (D9) 
+42097.06c -1.39608e-03     % Reflector-pin isotope (D9) 
+42098.06c -3.56386e-03     % Reflector-pin isotope (D9) 
+42100.06c -1.45138e-03     % Reflector-pin isotope (D9) 
+14028.06c -4.98583e-03     % Reflector-pin isotope (D9) 
+14029.06c -2.61474e-04     % Reflector-pin isotope (D9) 
+14030.06c -1.79543e-04     % Reflector-pin isotope (D9) 
+22046.06c -1.43271e-04     % Reflector-pin isotope (D9) 
+22047.06c -1.32013e-04     % Reflector-pin isotope (D9) 
+22048.06c -1.33582e-03     % Reflector-pin isotope (D9) 
+22049.06c -1.00075e-04     % Reflector-pin isotope (D9) 
+22050.06c -9.77716e-05     % Reflector-pin isotope (D9) 
+6000.06c  -2.89432e-04     % Reflector-pin isotope (D9) 
+26054.06c -2.69447e-02     % Reflector-pin isotope (D9) 
+26056.06c -4.38622e-01     % Reflector-pin isotope (D9) 
+26057.06c -1.03109e-02     % Reflector-pin isotope (D9) 
+26058.06c -1.39624e-03     % Reflector-pin isotope (D9) 
+11023.12c -1.06913e-01     % Coolant isotope (Na) 
+28058.06c -5.34452e-04     % Duct isotope (HT9) 
+28060.06c -2.12960e-04     % Duct isotope (HT9) 
+28061.06c -9.41257e-06     % Duct isotope (HT9) 
+28062.06c -3.04957e-05     % Duct isotope (HT9) 
+28064.06c -8.02170e-06     % Duct isotope (HT9) 
+24050.06c -7.96682e-04     % Duct isotope (HT9) 
+24052.06c -1.59767e-02     % Duct isotope (HT9) 
+24053.06c -1.84651e-03     % Duct isotope (HT9) 
+24054.06c -4.68303e-04     % Duct isotope (HT9) 
+25055.06c -3.18137e-04     % Duct isotope (HT9) 
+42092.06c -2.26154e-04     % Duct isotope (HT9) 
+42094.06c -1.44030e-04     % Duct isotope (HT9) 
+42095.06c -2.50530e-04     % Duct isotope (HT9) 
+42096.06c -2.65252e-04     % Duct isotope (HT9) 
+42097.06c -1.53454e-04     % Duct isotope (HT9) 
+42098.06c -3.91730e-04     % Duct isotope (HT9) 
+42100.06c -1.59532e-04     % Duct isotope (HT9) 
+14028.06c -3.65354e-04     % Duct isotope (HT9) 
+14029.06c -1.91604e-05     % Duct isotope (HT9) 
+14030.06c -1.31566e-05     % Duct isotope (HT9) 
+74000.06c -7.95342e-04     % Duct isotope (HT9) 
+23000.06c -7.95342e-04     % Duct isotope (HT9) 
+6000.06c  -3.18137e-04     % Duct isotope (HT9) 
+26054.06c -7.61978e-03     % Duct isotope (HT9) 
+26056.06c -1.24039e-01     % Duct isotope (HT9) 
+26057.06c -2.91584e-03     % Duct isotope (HT9) 
+26058.06c -3.94846e-04     % Duct isotope (HT9) 
+11023.06c -1.04388e-02     % IA-gap coolant isotope (Na) 
+
+% ####################################################                      
+%                                                                           
+%    Cell radialreflector8                                   
+%                                                                           
+%    Materials                                                              
+%    -------------------------------------------------                      
+%    Reflector-pin: D9
+%    Coolant:       Na
+%    Duct:          HT9
+%                                                                           
+%    General geometry                                                       
+%    -------------------------------------------------                      
+%    Cell volume: 3.235 m^3 
+%    Axially between  z = 0 and 3.0 m 
+%    Radially between r = 2.224 and 2.445 m 
+%                                                                            
+%    Calculated geometry                                                     
+%    -------------------------------------------------                       
+%    Reflector pin diameter: 1.965 cm 
+%    Reflector pin pitch:    2.774 cm 
+%    Reflector pin P/D:      1.412 
+%                                                                            
+%    Mass fractions                                                          
+%    -------------------------------------------------                       
+%    Reflector-pin   = 72.39%
+%    Active coolant  = 10.65%
+%    Duct            = 15.92%
+%    IA-gap coolant  = 1.04%
+%                                                                            
+%    Volume fractions                                                        
+%    -------------------------------------------------                       
+%    Reflector-pin   = 28.81% (40.00% in-assembly) 
+%    Active coolant  = 43.22% (60.00% in-assembly) 
+%    Duct            = 7.04%
+%    IA-gap coolant  = 4.14%
+%                                                                            
+%    Cell-averaged mass density (g/cc)                                       
+%    -------------------------------------------------                       
+%    Reflector-pin   = 2.45
+%    Active coolant  = 0.36
+%    Duct            = 0.54
+%    IA-gap coolant  = 0.04
+%    Cell total      = 3.38
+%                                                                            
+%    Cell-averaged temperatures (deg. C)                                     
+%    -------------------------------------------------                       
+%    Reflector-pin   = 428.8
+%    Active coolant  = 499.1
+%    Duct            = 428.8
+%    IA-gap coolant  = 425.8
+%                                                                            
+%    Component density (g/cc)                                                
+%    -------------------------------------------------                       
+%    Reflector-pin  = 8.489
+%    Active coolant = 0.833
+%    Duct           = 7.637
+%    IA-gap coolant = 0.850
+%                                                                            
+%    Component mass (kg/cell)                                                
+%    -------------------------------------------------                       
+%    Reflector-pin  = 7913.5
+%    Active coolant = 1164.1
+%    Duct           = 1739.9
+%    IA-gap coolant = 113.9
+%                                                                            
+% ######################################################                     
+
+mat radialreflectormat7 -3.37891 rgb  153 145 145  
+28058.06c -7.54012e-02     % Reflector-pin isotope (D9) 
+28060.06c -3.00446e-02     % Reflector-pin isotope (D9) 
+28061.06c -1.32794e-03     % Reflector-pin isotope (D9) 
+28062.06c -4.30238e-03     % Reflector-pin isotope (D9) 
+28064.06c -1.13171e-03     % Reflector-pin isotope (D9) 
+24050.06c -4.07892e-03     % Reflector-pin isotope (D9) 
+24052.06c -8.17989e-02     % Reflector-pin isotope (D9) 
+24053.06c -9.45395e-03     % Reflector-pin isotope (D9) 
+24054.06c -2.39766e-03     % Reflector-pin isotope (D9) 
+25055.06c -1.44784e-02     % Reflector-pin isotope (D9) 
+42092.06c -2.05846e-03     % Reflector-pin isotope (D9) 
+42094.06c -1.31097e-03     % Reflector-pin isotope (D9) 
+42095.06c -2.28033e-03     % Reflector-pin isotope (D9) 
+42096.06c -2.41433e-03     % Reflector-pin isotope (D9) 
+42097.06c -1.39674e-03     % Reflector-pin isotope (D9) 
+42098.06c -3.56554e-03     % Reflector-pin isotope (D9) 
+42100.06c -1.45206e-03     % Reflector-pin isotope (D9) 
+14028.06c -4.98819e-03     % Reflector-pin isotope (D9) 
+14029.06c -2.61597e-04     % Reflector-pin isotope (D9) 
+14030.06c -1.79628e-04     % Reflector-pin isotope (D9) 
+22046.06c -1.43338e-04     % Reflector-pin isotope (D9) 
+22047.06c -1.32076e-04     % Reflector-pin isotope (D9) 
+22048.06c -1.33645e-03     % Reflector-pin isotope (D9) 
+22049.06c -1.00122e-04     % Reflector-pin isotope (D9) 
+22050.06c -9.78178e-05     % Reflector-pin isotope (D9) 
+6000.06c  -2.89569e-04     % Reflector-pin isotope (D9) 
+26054.06c -2.69575e-02     % Reflector-pin isotope (D9) 
+26056.06c -4.38829e-01     % Reflector-pin isotope (D9) 
+26057.06c -1.03157e-02     % Reflector-pin isotope (D9) 
+26058.06c -1.39690e-03     % Reflector-pin isotope (D9) 
+11023.12c -1.06488e-01     % Coolant isotope (Na) 
+28058.06c -5.34784e-04     % Duct isotope (HT9) 
+28060.06c -2.13092e-04     % Duct isotope (HT9) 
+28061.06c -9.41842e-06     % Duct isotope (HT9) 
+28062.06c -3.05147e-05     % Duct isotope (HT9) 
+28064.06c -8.02669e-06     % Duct isotope (HT9) 
+24050.06c -7.97176e-04     % Duct isotope (HT9) 
+24052.06c -1.59866e-02     % Duct isotope (HT9) 
+24053.06c -1.84766e-03     % Duct isotope (HT9) 
+24054.06c -4.68594e-04     % Duct isotope (HT9) 
+25055.06c -3.18334e-04     % Duct isotope (HT9) 
+42092.06c -2.26295e-04     % Duct isotope (HT9) 
+42094.06c -1.44120e-04     % Duct isotope (HT9) 
+42095.06c -2.50685e-04     % Duct isotope (HT9) 
+42096.06c -2.65417e-04     % Duct isotope (HT9) 
+42097.06c -1.53549e-04     % Duct isotope (HT9) 
+42098.06c -3.91974e-04     % Duct isotope (HT9) 
+42100.06c -1.59631e-04     % Duct isotope (HT9) 
+14028.06c -3.65581e-04     % Duct isotope (HT9) 
+14029.06c -1.91723e-05     % Duct isotope (HT9) 
+14030.06c -1.31648e-05     % Duct isotope (HT9) 
+74000.06c -7.95836e-04     % Duct isotope (HT9) 
+23000.06c -7.95836e-04     % Duct isotope (HT9) 
+6000.06c  -3.18334e-04     % Duct isotope (HT9) 
+26054.06c -7.62451e-03     % Duct isotope (HT9) 
+26056.06c -1.24116e-01     % Duct isotope (HT9) 
+26057.06c -2.91765e-03     % Duct isotope (HT9) 
+26058.06c -3.95091e-04     % Duct isotope (HT9) 
+11023.06c -1.04230e-02     % IA-gap coolant isotope (Na) 
+
+% ####################################################                      
+%                                                                           
+%    Cell radialreflector9                                   
+%                                                                           
+%    Materials                                                              
+%    -------------------------------------------------                      
+%    Reflector-pin: D9
+%    Coolant:       Na
+%    Duct:          HT9
+%                                                                           
+%    General geometry                                                       
+%    -------------------------------------------------                      
+%    Cell volume: 3.235 m^3 
+%    Axially between  z = 0 and 3.0 m 
+%    Radially between r = 2.224 and 2.445 m 
+%                                                                            
+%    Calculated geometry                                                     
+%    -------------------------------------------------                       
+%    Reflector pin diameter: 1.965 cm 
+%    Reflector pin pitch:    2.774 cm 
+%    Reflector pin P/D:      1.412 
+%                                                                            
+%    Mass fractions                                                          
+%    -------------------------------------------------                       
+%    Reflector-pin   = 72.41%
+%    Active coolant  = 10.62%
+%    Duct            = 15.92%
+%    IA-gap coolant  = 1.04%
+%                                                                            
+%    Volume fractions                                                        
+%    -------------------------------------------------                       
+%    Reflector-pin   = 28.81% (40.00% in-assembly) 
+%    Active coolant  = 43.22% (60.00% in-assembly) 
+%    Duct            = 7.04%
+%    IA-gap coolant  = 4.14%
+%                                                                            
+%    Cell-averaged mass density (g/cc)                                       
+%    -------------------------------------------------                       
+%    Reflector-pin   = 2.45
+%    Active coolant  = 0.36
+%    Duct            = 0.54
+%    IA-gap coolant  = 0.04
+%    Cell total      = 3.38
+%                                                                            
+%    Cell-averaged temperatures (deg. C)                                     
+%    -------------------------------------------------                       
+%    Reflector-pin   = 434.0
+%    Active coolant  = 509.3
+%    Duct            = 434.0
+%    IA-gap coolant  = 431.0
+%                                                                            
+%    Component density (g/cc)                                                
+%    -------------------------------------------------                       
+%    Reflector-pin  = 8.487
+%    Active coolant = 0.830
+%    Duct           = 7.636
+%    IA-gap coolant = 0.849
+%                                                                            
+%    Component mass (kg/cell)                                                
+%    -------------------------------------------------                       
+%    Reflector-pin  = 7911.2
+%    Active coolant = 1160.7
+%    Duct           = 1739.6
+%    IA-gap coolant = 113.8
+%                                                                            
+% ######################################################                     
+
+mat radialreflectormat8 -3.37700 rgb  153 145 145  
+28058.06c -7.54218e-02     % Reflector-pin isotope (D9) 
+28060.06c -3.00528e-02     % Reflector-pin isotope (D9) 
+28061.06c -1.32830e-03     % Reflector-pin isotope (D9) 
+28062.06c -4.30356e-03     % Reflector-pin isotope (D9) 
+28064.06c -1.13202e-03     % Reflector-pin isotope (D9) 
+24050.06c -4.08004e-03     % Reflector-pin isotope (D9) 
+24052.06c -8.18213e-02     % Reflector-pin isotope (D9) 
+24053.06c -9.45653e-03     % Reflector-pin isotope (D9) 
+24054.06c -2.39831e-03     % Reflector-pin isotope (D9) 
+25055.06c -1.44824e-02     % Reflector-pin isotope (D9) 
+42092.06c -2.05903e-03     % Reflector-pin isotope (D9) 
+42094.06c -1.31133e-03     % Reflector-pin isotope (D9) 
+42095.06c -2.28095e-03     % Reflector-pin isotope (D9) 
+42096.06c -2.41499e-03     % Reflector-pin isotope (D9) 
+42097.06c -1.39712e-03     % Reflector-pin isotope (D9) 
+42098.06c -3.56652e-03     % Reflector-pin isotope (D9) 
+42100.06c -1.45246e-03     % Reflector-pin isotope (D9) 
+14028.06c -4.98955e-03     % Reflector-pin isotope (D9) 
+14029.06c -2.61669e-04     % Reflector-pin isotope (D9) 
+14030.06c -1.79677e-04     % Reflector-pin isotope (D9) 
+22046.06c -1.43377e-04     % Reflector-pin isotope (D9) 
+22047.06c -1.32112e-04     % Reflector-pin isotope (D9) 
+22048.06c -1.33682e-03     % Reflector-pin isotope (D9) 
+22049.06c -1.00149e-04     % Reflector-pin isotope (D9) 
+22050.06c -9.78445e-05     % Reflector-pin isotope (D9) 
+6000.06c  -2.89648e-04     % Reflector-pin isotope (D9) 
+26054.06c -2.69648e-02     % Reflector-pin isotope (D9) 
+26056.06c -4.38949e-01     % Reflector-pin isotope (D9) 
+26057.06c -1.03186e-02     % Reflector-pin isotope (D9) 
+26058.06c -1.39728e-03     % Reflector-pin isotope (D9) 
+11023.12c -1.06242e-01     % Coolant isotope (Na) 
+28058.06c -5.34976e-04     % Duct isotope (HT9) 
+28060.06c -2.13168e-04     % Duct isotope (HT9) 
+28061.06c -9.42180e-06     % Duct isotope (HT9) 
+28062.06c -3.05256e-05     % Duct isotope (HT9) 
+28064.06c -8.02957e-06     % Duct isotope (HT9) 
+24050.06c -7.97462e-04     % Duct isotope (HT9) 
+24052.06c -1.59924e-02     % Duct isotope (HT9) 
+24053.06c -1.84832e-03     % Duct isotope (HT9) 
+24054.06c -4.68762e-04     % Duct isotope (HT9) 
+25055.06c -3.18448e-04     % Duct isotope (HT9) 
+42092.06c -2.26376e-04     % Duct isotope (HT9) 
+42094.06c -1.44172e-04     % Duct isotope (HT9) 
+42095.06c -2.50775e-04     % Duct isotope (HT9) 
+42096.06c -2.65512e-04     % Duct isotope (HT9) 
+42097.06c -1.53604e-04     % Duct isotope (HT9) 
+42098.06c -3.92114e-04     % Duct isotope (HT9) 
+42100.06c -1.59688e-04     % Duct isotope (HT9) 
+14028.06c -3.65712e-04     % Duct isotope (HT9) 
+14029.06c -1.91792e-05     % Duct isotope (HT9) 
+14030.06c -1.31695e-05     % Duct isotope (HT9) 
+74000.06c -7.96121e-04     % Duct isotope (HT9) 
+23000.06c -7.96121e-04     % Duct isotope (HT9) 
+6000.06c  -3.18448e-04     % Duct isotope (HT9) 
+26054.06c -7.62725e-03     % Duct isotope (HT9) 
+26056.06c -1.24161e-01     % Duct isotope (HT9) 
+26057.06c -2.91870e-03     % Duct isotope (HT9) 
+26058.06c -3.95233e-04     % Duct isotope (HT9) 
+11023.06c -1.04139e-02     % IA-gap coolant isotope (Na) 
+
+
+% ####################################################                      
+%                                                                           
+%    Cell radialshield1                                      
+%                                                                           
+%    Materials                                                              
+%    -------------------------------------------------                      
+%    Shield-pin: B4C
+%    Coolant:    Na
+%    Duct:       HT9
+%                                                                           
+%    General geometry                                                       
+%    -------------------------------------------------                      
+%    Cell volume: 3.541 m^3 
+%    Axially between  z = 0 and 3.0 m 
+%    Radially between r = 2.445 and 2.665 m 
+%                                                                            
+%    Calculated geometry                                                     
+%    -------------------------------------------------                       
+%    Shield pin diameter: 3.359 cm 
+%    Shield pin pitch:    3.909 cm 
+%    Shield pin P/D:      1.164 
+%                                                                            
+%    Mass fractions                                                          
+%    -------------------------------------------------                       
+%    Shield-pin      = 56.23%
+%    Active coolant  = 14.39%
+%    Duct            = 27.55%
+%    IA-gap coolant  = 1.84%
+%                                                                            
+%    Volume fractions                                                        
+%    -------------------------------------------------                       
+%    Shield-pin      = 48.81% (60.00% in-assembly) 
+%    Active coolant  = 32.54% (40.00% in-assembly) 
+%    Duct            = 7.04%
+%    IA-gap coolant  = 4.14%
+%                                                                            
+%    Cell-averaged mass density (g/cc)                                       
+%    -------------------------------------------------                       
+%    Shield-pin   = 1.10
+%    Active coolant  = 0.28
+%    Duct            = 0.54
+%    IA-gap coolant  = 0.04
+%    Cell total      = 1.96
+%                                                                            
+%    Cell-averaged temperatures (deg. C)                                     
+%    -------------------------------------------------                       
+%    Shield-pin   = 356.1
+%    Active coolant  = 357.1
+%    Duct            = 356.1
+%    IA-gap coolant  = 353.1
+%                                                                            
+%    Component density (g/cc)                                                
+%    -------------------------------------------------                       
+%    Shield-pin  = 2.255
+%    Active coolant = 0.866
+%    Duct           = 7.659
+%    IA-gap coolant = 0.867
+%                                                                            
+%    Component mass (kg/cell)                                                
+%    -------------------------------------------------                       
+%    Shield-pin     = 3897.8
+%    Active coolant = 997.7
+%    Duct           = 1909.7
+%    IA-gap coolant = 127.2
+%                                                                            
+% ######################################################                     
+
+mat radialshieldmat0 -1.95787 rgb  133 37 37 
+5010.06c  -3.92317e-01     % Shield-pin isotope (B4C) 
+5011.06c  -4.79284e-02     % Shield-pin isotope (B4C) 
+6000.06c  -1.22009e-01     % Shield-pin isotope (B4C) 
+11023.06c -1.43923e-01     % Coolant isotope (Na) 
+28058.06c -9.25556e-04     % Duct isotope (HT9) 
+28060.06c -3.68800e-04     % Duct isotope (HT9) 
+28061.06c -1.63005e-05     % Duct isotope (HT9) 
+28062.06c -5.28120e-05     % Duct isotope (HT9) 
+28064.06c -1.38919e-05     % Duct isotope (HT9) 
+24050.06c -1.37968e-03     % Duct isotope (HT9) 
+24052.06c -2.76682e-02     % Duct isotope (HT9) 
+24053.06c -3.19776e-03     % Duct isotope (HT9) 
+24054.06c -8.11000e-04     % Duct isotope (HT9) 
+25055.06c -5.50944e-04     % Duct isotope (HT9) 
+42092.06c -3.91651e-04     % Duct isotope (HT9) 
+42094.06c -2.49430e-04     % Duct isotope (HT9) 
+42095.06c -4.33864e-04     % Duct isotope (HT9) 
+42096.06c -4.59360e-04     % Duct isotope (HT9) 
+42097.06c -2.65749e-04     % Duct isotope (HT9) 
+42098.06c -6.78393e-04     % Duct isotope (HT9) 
+42100.06c -2.76275e-04     % Duct isotope (HT9) 
+14028.06c -6.32714e-04     % Duct isotope (HT9) 
+14029.06c -3.31816e-05     % Duct isotope (HT9) 
+14030.06c -2.27844e-05     % Duct isotope (HT9) 
+74000.06c -1.37736e-03     % Duct isotope (HT9) 
+23000.06c -1.37736e-03     % Duct isotope (HT9) 
+6000.06c  -5.50944e-04     % Duct isotope (HT9) 
+26054.06c -1.31958e-02     % Duct isotope (HT9) 
+26056.06c -2.14809e-01     % Duct isotope (HT9) 
+26057.06c -5.04960e-03     % Duct isotope (HT9) 
+26058.06c -6.83787e-04     % Duct isotope (HT9) 
+11023.06c -1.83502e-02     % IA-gap coolant isotope (Na) 
+
+% ####################################################                      
+%                                                                           
+%    Cell radialshield2                                      
+%                                                                           
+%    Materials                                                              
+%    -------------------------------------------------                      
+%    Shield-pin: B4C
+%    Coolant:    Na
+%    Duct:       HT9
+%                                                                           
+%    General geometry                                                       
+%    -------------------------------------------------                      
+%    Cell volume: 3.541 m^3 
+%    Axially between  z = 0 and 3.0 m 
+%    Radially between r = 2.445 and 2.665 m 
+%                                                                            
+%    Calculated geometry                                                     
+%    -------------------------------------------------                       
+%    Shield pin diameter: 3.359 cm 
+%    Shield pin pitch:    3.909 cm 
+%    Shield pin P/D:      1.164 
+%                                                                            
+%    Mass fractions                                                          
+%    -------------------------------------------------                       
+%    Shield-pin      = 56.25%
+%    Active coolant  = 14.36%
+%    Duct            = 27.56%
+%    IA-gap coolant  = 1.83%
+%                                                                            
+%    Volume fractions                                                        
+%    -------------------------------------------------                       
+%    Shield-pin      = 48.81% (60.00% in-assembly) 
+%    Active coolant  = 32.54% (40.00% in-assembly) 
+%    Duct            = 7.04%
+%    IA-gap coolant  = 4.14%
+%                                                                            
+%    Cell-averaged mass density (g/cc)                                       
+%    -------------------------------------------------                       
+%    Shield-pin   = 1.10
+%    Active coolant  = 0.28
+%    Duct            = 0.54
+%    IA-gap coolant  = 0.04
+%    Cell total      = 1.96
+%                                                                            
+%    Cell-averaged temperatures (deg. C)                                     
+%    -------------------------------------------------                       
+%    Shield-pin   = 361.3
+%    Active coolant  = 367.2
+%    Duct            = 361.3
+%    IA-gap coolant  = 358.3
+%                                                                            
+%    Component density (g/cc)                                                
+%    -------------------------------------------------                       
+%    Shield-pin  = 2.255
+%    Active coolant = 0.864
+%    Duct           = 7.657
+%    IA-gap coolant = 0.866
+%                                                                            
+%    Component mass (kg/cell)                                                
+%    -------------------------------------------------                       
+%    Shield-pin     = 3897.5
+%    Active coolant = 995.0
+%    Duct           = 1909.3
+%    IA-gap coolant = 127.0
+%                                                                            
+% ######################################################                     
+
+mat radialshieldmat1 -1.95684 rgb  133 37 37 
+5010.06c  -3.92490e-01     % Shield-pin isotope (B4C) 
+5011.06c  -4.79495e-02     % Shield-pin isotope (B4C) 
+6000.06c  -1.22063e-01     % Shield-pin isotope (B4C) 
+11023.06c -1.43602e-01     % Coolant isotope (Na) 
+28058.06c -9.25860e-04     % Duct isotope (HT9) 
+28060.06c -3.68921e-04     % Duct isotope (HT9) 
+28061.06c -1.63059e-05     % Duct isotope (HT9) 
+28062.06c -5.28294e-05     % Duct isotope (HT9) 
+28064.06c -1.38964e-05     % Duct isotope (HT9) 
+24050.06c -1.38013e-03     % Duct isotope (HT9) 
+24052.06c -2.76773e-02     % Duct isotope (HT9) 
+24053.06c -3.19881e-03     % Duct isotope (HT9) 
+24054.06c -8.11266e-04     % Duct isotope (HT9) 
+25055.06c -5.51125e-04     % Duct isotope (HT9) 
+42092.06c -3.91779e-04     % Duct isotope (HT9) 
+42094.06c -2.49512e-04     % Duct isotope (HT9) 
+42095.06c -4.34006e-04     % Duct isotope (HT9) 
+42096.06c -4.59511e-04     % Duct isotope (HT9) 
+42097.06c -2.65836e-04     % Duct isotope (HT9) 
+42098.06c -6.78616e-04     % Duct isotope (HT9) 
+42100.06c -2.76366e-04     % Duct isotope (HT9) 
+14028.06c -6.32922e-04     % Duct isotope (HT9) 
+14029.06c -3.31925e-05     % Duct isotope (HT9) 
+14030.06c -2.27919e-05     % Duct isotope (HT9) 
+74000.06c -1.37781e-03     % Duct isotope (HT9) 
+23000.06c -1.37781e-03     % Duct isotope (HT9) 
+6000.06c  -5.51125e-04     % Duct isotope (HT9) 
+26054.06c -1.32001e-02     % Duct isotope (HT9) 
+26056.06c -2.14879e-01     % Duct isotope (HT9) 
+26057.06c -5.05126e-03     % Duct isotope (HT9) 
+26058.06c -6.84012e-04     % Duct isotope (HT9) 
+11023.06c -1.83339e-02     % IA-gap coolant isotope (Na) 
+
+% ####################################################                      
+%                                                                           
+%    Cell radialshield3                                      
+%                                                                           
+%    Materials                                                              
+%    -------------------------------------------------                      
+%    Shield-pin: B4C
+%    Coolant:    Na
+%    Duct:       HT9
+%                                                                           
+%    General geometry                                                       
+%    -------------------------------------------------                      
+%    Cell volume: 3.541 m^3 
+%    Axially between  z = 0 and 3.0 m 
+%    Radially between r = 2.445 and 2.665 m 
+%                                                                            
+%    Calculated geometry                                                     
+%    -------------------------------------------------                       
+%    Shield pin diameter: 3.359 cm 
+%    Shield pin pitch:    3.909 cm 
+%    Shield pin P/D:      1.164 
+%                                                                            
+%    Mass fractions                                                          
+%    -------------------------------------------------                       
+%    Shield-pin      = 56.29%
+%    Active coolant  = 14.30%
+%    Duct            = 27.57%
+%    IA-gap coolant  = 1.83%
+%                                                                            
+%    Volume fractions                                                        
+%    -------------------------------------------------                       
+%    Shield-pin      = 48.81% (60.00% in-assembly) 
+%    Active coolant  = 32.54% (40.00% in-assembly) 
+%    Duct            = 7.04%
+%    IA-gap coolant  = 4.14%
+%                                                                            
+%    Cell-averaged mass density (g/cc)                                       
+%    -------------------------------------------------                       
+%    Shield-pin   = 1.10
+%    Active coolant  = 0.28
+%    Duct            = 0.54
+%    IA-gap coolant  = 0.04
+%    Cell total      = 1.96
+%                                                                            
+%    Cell-averaged temperatures (deg. C)                                     
+%    -------------------------------------------------                       
+%    Shield-pin   = 370.3
+%    Active coolant  = 384.9
+%    Duct            = 370.3
+%    IA-gap coolant  = 367.3
+%                                                                            
+%    Component density (g/cc)                                                
+%    -------------------------------------------------                       
+%    Shield-pin  = 2.255
+%    Active coolant = 0.859
+%    Duct           = 7.655
+%    IA-gap coolant = 0.863
+%                                                                            
+%    Component mass (kg/cell)                                                
+%    -------------------------------------------------                       
+%    Shield-pin     = 3896.9
+%    Active coolant = 990.2
+%    Duct           = 1908.7
+%    IA-gap coolant = 126.7
+%                                                                            
+% ######################################################                     
+
+mat radialshieldmat2 -1.95504 rgb  133 37 37 
+5010.06c  -3.92789e-01     % Shield-pin isotope (B4C) 
+5011.06c  -4.79861e-02     % Shield-pin isotope (B4C) 
+6000.06c  -1.22156e-01     % Shield-pin isotope (B4C) 
+11023.06c -1.43044e-01     % Coolant isotope (Na) 
+28058.06c -9.26386e-04     % Duct isotope (HT9) 
+28060.06c -3.69131e-04     % Duct isotope (HT9) 
+28061.06c -1.63152e-05     % Duct isotope (HT9) 
+28062.06c -5.28594e-05     % Duct isotope (HT9) 
+28064.06c -1.39043e-05     % Duct isotope (HT9) 
+24050.06c -1.38092e-03     % Duct isotope (HT9) 
+24052.06c -2.76930e-02     % Duct isotope (HT9) 
+24053.06c -3.20063e-03     % Duct isotope (HT9) 
+24054.06c -8.11728e-04     % Duct isotope (HT9) 
+25055.06c -5.51439e-04     % Duct isotope (HT9) 
+42092.06c -3.92002e-04     % Duct isotope (HT9) 
+42094.06c -2.49653e-04     % Duct isotope (HT9) 
+42095.06c -4.34253e-04     % Duct isotope (HT9) 
+42096.06c -4.59772e-04     % Duct isotope (HT9) 
+42097.06c -2.65987e-04     % Duct isotope (HT9) 
+42098.06c -6.79002e-04     % Duct isotope (HT9) 
+42100.06c -2.76523e-04     % Duct isotope (HT9) 
+14028.06c -6.33282e-04     % Duct isotope (HT9) 
+14029.06c -3.32114e-05     % Duct isotope (HT9) 
+14030.06c -2.28049e-05     % Duct isotope (HT9) 
+74000.06c -1.37860e-03     % Duct isotope (HT9) 
+23000.06c -1.37860e-03     % Duct isotope (HT9) 
+6000.06c  -5.51439e-04     % Duct isotope (HT9) 
+26054.06c -1.32077e-02     % Duct isotope (HT9) 
+26056.06c -2.15002e-01     % Duct isotope (HT9) 
+26057.06c -5.05413e-03     % Duct isotope (HT9) 
+26058.06c -6.84401e-04     % Duct isotope (HT9) 
+11023.06c -1.83058e-02     % IA-gap coolant isotope (Na) 
+
+% ####################################################                      
+%                                                                           
+%    Cell radialshield4                                      
+%                                                                           
+%    Materials                                                              
+%    -------------------------------------------------                      
+%    Shield-pin: B4C
+%    Coolant:    Na
+%    Duct:       HT9
+%                                                                           
+%    General geometry                                                       
+%    -------------------------------------------------                      
+%    Cell volume: 3.541 m^3 
+%    Axially between  z = 0 and 3.0 m 
+%    Radially between r = 2.445 and 2.665 m 
+%                                                                            
+%    Calculated geometry                                                     
+%    -------------------------------------------------                       
+%    Shield pin diameter: 3.359 cm 
+%    Shield pin pitch:    3.909 cm 
+%    Shield pin P/D:      1.164 
+%                                                                            
+%    Mass fractions                                                          
+%    -------------------------------------------------                       
+%    Shield-pin      = 56.35%
+%    Active coolant  = 14.23%
+%    Duct            = 27.59%
+%    IA-gap coolant  = 1.83%
+%                                                                            
+%    Volume fractions                                                        
+%    -------------------------------------------------                       
+%    Shield-pin      = 48.81% (60.00% in-assembly) 
+%    Active coolant  = 32.54% (40.00% in-assembly) 
+%    Duct            = 7.04%
+%    IA-gap coolant  = 4.14%
+%                                                                            
+%    Cell-averaged mass density (g/cc)                                       
+%    -------------------------------------------------                       
+%    Shield-pin   = 1.10
+%    Active coolant  = 0.28
+%    Duct            = 0.54
+%    IA-gap coolant  = 0.04
+%    Cell total      = 1.95
+%                                                                            
+%    Cell-averaged temperatures (deg. C)                                     
+%    -------------------------------------------------                       
+%    Shield-pin   = 381.8
+%    Active coolant  = 407.4
+%    Duct            = 381.8
+%    IA-gap coolant  = 378.8
+%                                                                            
+%    Component density (g/cc)                                                
+%    -------------------------------------------------                       
+%    Shield-pin  = 2.254
+%    Active coolant = 0.854
+%    Duct           = 7.651
+%    IA-gap coolant = 0.861
+%                                                                            
+%    Component mass (kg/cell)                                                
+%    -------------------------------------------------                       
+%    Shield-pin     = 3896.1
+%    Active coolant = 984.1
+%    Duct           = 1907.8
+%    IA-gap coolant = 126.3
+%                                                                            
+% ######################################################                     
+
+mat radialshieldmat3 -1.95275 rgb  133 37 37 
+5010.06c  -3.93173e-01     % Shield-pin isotope (B4C) 
+5011.06c  -4.80330e-02     % Shield-pin isotope (B4C) 
+6000.06c  -1.22275e-01     % Shield-pin isotope (B4C) 
+11023.06c -1.42329e-01     % Coolant isotope (Na) 
+28058.06c -9.27061e-04     % Duct isotope (HT9) 
+28060.06c -3.69400e-04     % Duct isotope (HT9) 
+28061.06c -1.63270e-05     % Duct isotope (HT9) 
+28062.06c -5.28979e-05     % Duct isotope (HT9) 
+28064.06c -1.39144e-05     % Duct isotope (HT9) 
+24050.06c -1.38192e-03     % Duct isotope (HT9) 
+24052.06c -2.77132e-02     % Duct isotope (HT9) 
+24053.06c -3.20296e-03     % Duct isotope (HT9) 
+24054.06c -8.12318e-04     % Duct isotope (HT9) 
+25055.06c -5.51840e-04     % Duct isotope (HT9) 
+42092.06c -3.92287e-04     % Duct isotope (HT9) 
+42094.06c -2.49835e-04     % Duct isotope (HT9) 
+42095.06c -4.34569e-04     % Duct isotope (HT9) 
+42096.06c -4.60107e-04     % Duct isotope (HT9) 
+42097.06c -2.66181e-04     % Duct isotope (HT9) 
+42098.06c -6.79496e-04     % Duct isotope (HT9) 
+42100.06c -2.76724e-04     % Duct isotope (HT9) 
+14028.06c -6.33743e-04     % Duct isotope (HT9) 
+14029.06c -3.32356e-05     % Duct isotope (HT9) 
+14030.06c -2.28215e-05     % Duct isotope (HT9) 
+74000.06c -1.37960e-03     % Duct isotope (HT9) 
+23000.06c -1.37960e-03     % Duct isotope (HT9) 
+6000.06c  -5.51840e-04     % Duct isotope (HT9) 
+26054.06c -1.32173e-02     % Duct isotope (HT9) 
+26056.06c -2.15158e-01     % Duct isotope (HT9) 
+26057.06c -5.05781e-03     % Duct isotope (HT9) 
+26058.06c -6.84899e-04     % Duct isotope (HT9) 
+11023.06c -1.82697e-02     % IA-gap coolant isotope (Na) 
+
+% ####################################################                      
+%                                                                           
+%    Cell radialshield5                                      
+%                                                                           
+%    Materials                                                              
+%    -------------------------------------------------                      
+%    Shield-pin: B4C
+%    Coolant:    Na
+%    Duct:       HT9
+%                                                                           
+%    General geometry                                                       
+%    -------------------------------------------------                      
+%    Cell volume: 3.541 m^3 
+%    Axially between  z = 0 and 3.0 m 
+%    Radially between r = 2.445 and 2.665 m 
+%                                                                            
+%    Calculated geometry                                                     
+%    -------------------------------------------------                       
+%    Shield pin diameter: 3.359 cm 
+%    Shield pin pitch:    3.909 cm 
+%    Shield pin P/D:      1.164 
+%                                                                            
+%    Mass fractions                                                          
+%    -------------------------------------------------                       
+%    Shield-pin      = 56.41%
+%    Active coolant  = 14.15%
+%    Duct            = 27.61%
+%    IA-gap coolant  = 1.82%
+%                                                                            
+%    Volume fractions                                                        
+%    -------------------------------------------------                       
+%    Shield-pin      = 48.81% (60.00% in-assembly) 
+%    Active coolant  = 32.54% (40.00% in-assembly) 
+%    Duct            = 7.04%
+%    IA-gap coolant  = 4.14%
+%                                                                            
+%    Cell-averaged mass density (g/cc)                                       
+%    -------------------------------------------------                       
+%    Shield-pin   = 1.10
+%    Active coolant  = 0.28
+%    Duct            = 0.54
+%    IA-gap coolant  = 0.04
+%    Cell total      = 1.95
+%                                                                            
+%    Cell-averaged temperatures (deg. C)                                     
+%    -------------------------------------------------                       
+%    Shield-pin   = 395.1
+%    Active coolant  = 433.2
+%    Duct            = 395.1
+%    IA-gap coolant  = 392.1
+%                                                                            
+%    Component density (g/cc)                                                
+%    -------------------------------------------------                       
+%    Shield-pin  = 2.254
+%    Active coolant = 0.848
+%    Duct           = 7.647
+%    IA-gap coolant = 0.858
+%                                                                            
+%    Component mass (kg/cell)                                                
+%    -------------------------------------------------                       
+%    Shield-pin     = 3895.2
+%    Active coolant = 977.1
+%    Duct           = 1906.8
+%    IA-gap coolant = 125.9
+%                                                                            
+% ######################################################                     
+
+mat radialshieldmat4 -1.95012 rgb  133 37 37 
+5010.06c  -3.93613e-01     % Shield-pin isotope (B4C) 
+5011.06c  -4.80868e-02     % Shield-pin isotope (B4C) 
+6000.06c  -1.22412e-01     % Shield-pin isotope (B4C) 
+11023.06c -1.41510e-01     % Coolant isotope (Na) 
+28058.06c -9.27832e-04     % Duct isotope (HT9) 
+28060.06c -3.69707e-04     % Duct isotope (HT9) 
+28061.06c -1.63406e-05     % Duct isotope (HT9) 
+28062.06c -5.29419e-05     % Duct isotope (HT9) 
+28064.06c -1.39260e-05     % Duct isotope (HT9) 
+24050.06c -1.38307e-03     % Duct isotope (HT9) 
+24052.06c -2.77362e-02     % Duct isotope (HT9) 
+24053.06c -3.20563e-03     % Duct isotope (HT9) 
+24054.06c -8.12994e-04     % Duct isotope (HT9) 
+25055.06c -5.52299e-04     % Duct isotope (HT9) 
+42092.06c -3.92614e-04     % Duct isotope (HT9) 
+42094.06c -2.50043e-04     % Duct isotope (HT9) 
+42095.06c -4.34931e-04     % Duct isotope (HT9) 
+42096.06c -4.60489e-04     % Duct isotope (HT9) 
+42097.06c -2.66402e-04     % Duct isotope (HT9) 
+42098.06c -6.80061e-04     % Duct isotope (HT9) 
+42100.06c -2.76954e-04     % Duct isotope (HT9) 
+14028.06c -6.34270e-04     % Duct isotope (HT9) 
+14029.06c -3.32632e-05     % Duct isotope (HT9) 
+14030.06c -2.28405e-05     % Duct isotope (HT9) 
+74000.06c -1.38075e-03     % Duct isotope (HT9) 
+23000.06c -1.38075e-03     % Duct isotope (HT9) 
+6000.06c  -5.52299e-04     % Duct isotope (HT9) 
+26054.06c -1.32283e-02     % Duct isotope (HT9) 
+26056.06c -2.15337e-01     % Duct isotope (HT9) 
+26057.06c -5.06202e-03     % Duct isotope (HT9) 
+26058.06c -6.85469e-04     % Duct isotope (HT9) 
+11023.06c -1.82283e-02     % IA-gap coolant isotope (Na) 
+
+% ####################################################                      
+%                                                                           
+%    Cell radialshield6                                      
+%                                                                           
+%    Materials                                                              
+%    -------------------------------------------------                      
+%    Shield-pin: B4C
+%    Coolant:    Na
+%    Duct:       HT9
+%                                                                           
+%    General geometry                                                       
+%    -------------------------------------------------                      
+%    Cell volume: 3.541 m^3 
+%    Axially between  z = 0 and 3.0 m 
+%    Radially between r = 2.445 and 2.665 m 
+%                                                                            
+%    Calculated geometry                                                     
+%    -------------------------------------------------                       
+%    Shield pin diameter: 3.359 cm 
+%    Shield pin pitch:    3.909 cm 
+%    Shield pin P/D:      1.164 
+%                                                                            
+%    Mass fractions                                                          
+%    -------------------------------------------------                       
+%    Shield-pin      = 56.47%
+%    Active coolant  = 14.07%
+%    Duct            = 27.64%
+%    IA-gap coolant  = 1.82%
+%                                                                            
+%    Volume fractions                                                        
+%    -------------------------------------------------                       
+%    Shield-pin      = 48.81% (60.00% in-assembly) 
+%    Active coolant  = 32.54% (40.00% in-assembly) 
+%    Duct            = 7.04%
+%    IA-gap coolant  = 4.14%
+%                                                                            
+%    Cell-averaged mass density (g/cc)                                       
+%    -------------------------------------------------                       
+%    Shield-pin   = 1.10
+%    Active coolant  = 0.27
+%    Duct            = 0.54
+%    IA-gap coolant  = 0.04
+%    Cell total      = 1.95
+%                                                                            
+%    Cell-averaged temperatures (deg. C)                                     
+%    -------------------------------------------------                       
+%    Shield-pin   = 408.3
+%    Active coolant  = 459.0
+%    Duct            = 408.3
+%    IA-gap coolant  = 405.3
+%                                                                            
+%    Component density (g/cc)                                                
+%    -------------------------------------------------                       
+%    Shield-pin  = 2.253
+%    Active coolant = 0.842
+%    Duct           = 7.643
+%    IA-gap coolant = 0.855
+%                                                                            
+%    Component mass (kg/cell)                                                
+%    -------------------------------------------------                       
+%    Shield-pin     = 3894.4
+%    Active coolant = 970.2
+%    Duct           = 1905.8
+%    IA-gap coolant = 125.4
+%                                                                            
+% ######################################################                     
+
+mat radialshieldmat5 -1.94750 rgb  133 37 37 
+5010.06c  -3.94055e-01     % Shield-pin isotope (B4C) 
+5011.06c  -4.81408e-02     % Shield-pin isotope (B4C) 
+6000.06c  -1.22550e-01     % Shield-pin isotope (B4C) 
+11023.06c -1.40688e-01     % Coolant isotope (Na) 
+28058.06c -9.28603e-04     % Duct isotope (HT9) 
+28060.06c -3.70014e-04     % Duct isotope (HT9) 
+28061.06c -1.63542e-05     % Duct isotope (HT9) 
+28062.06c -5.29859e-05     % Duct isotope (HT9) 
+28064.06c -1.39376e-05     % Duct isotope (HT9) 
+24050.06c -1.38422e-03     % Duct isotope (HT9) 
+24052.06c -2.77593e-02     % Duct isotope (HT9) 
+24053.06c -3.20829e-03     % Duct isotope (HT9) 
+24054.06c -8.13670e-04     % Duct isotope (HT9) 
+25055.06c -5.52758e-04     % Duct isotope (HT9) 
+42092.06c -3.92940e-04     % Duct isotope (HT9) 
+42094.06c -2.50251e-04     % Duct isotope (HT9) 
+42095.06c -4.35292e-04     % Duct isotope (HT9) 
+42096.06c -4.60872e-04     % Duct isotope (HT9) 
+42097.06c -2.66624e-04     % Duct isotope (HT9) 
+42098.06c -6.80626e-04     % Duct isotope (HT9) 
+42100.06c -2.77185e-04     % Duct isotope (HT9) 
+14028.06c -6.34797e-04     % Duct isotope (HT9) 
+14029.06c -3.32909e-05     % Duct isotope (HT9) 
+14030.06c -2.28595e-05     % Duct isotope (HT9) 
+74000.06c -1.38189e-03     % Duct isotope (HT9) 
+23000.06c -1.38189e-03     % Duct isotope (HT9) 
+6000.06c  -5.52758e-04     % Duct isotope (HT9) 
+26054.06c -1.32393e-02     % Duct isotope (HT9) 
+26056.06c -2.15516e-01     % Duct isotope (HT9) 
+26057.06c -5.06623e-03     % Duct isotope (HT9) 
+26058.06c -6.86039e-04     % Duct isotope (HT9) 
+11023.06c -1.81869e-02     % IA-gap coolant isotope (Na) 
+
+% ####################################################                      
+%                                                                           
+%    Cell radialshield7                                      
+%                                                                           
+%    Materials                                                              
+%    -------------------------------------------------                      
+%    Shield-pin: B4C
+%    Coolant:    Na
+%    Duct:       HT9
+%                                                                           
+%    General geometry                                                       
+%    -------------------------------------------------                      
+%    Cell volume: 3.541 m^3 
+%    Axially between  z = 0 and 3.0 m 
+%    Radially between r = 2.445 and 2.665 m 
+%                                                                            
+%    Calculated geometry                                                     
+%    -------------------------------------------------                       
+%    Shield pin diameter: 3.359 cm 
+%    Shield pin pitch:    3.909 cm 
+%    Shield pin P/D:      1.164 
+%                                                                            
+%    Mass fractions                                                          
+%    -------------------------------------------------                       
+%    Shield-pin      = 56.53%
+%    Active coolant  = 14.00%
+%    Duct            = 27.66%
+%    IA-gap coolant  = 1.82%
+%                                                                            
+%    Volume fractions                                                        
+%    -------------------------------------------------                       
+%    Shield-pin      = 48.81% (60.00% in-assembly) 
+%    Active coolant  = 32.54% (40.00% in-assembly) 
+%    Duct            = 7.04%
+%    IA-gap coolant  = 4.14%
+%                                                                            
+%    Cell-averaged mass density (g/cc)                                       
+%    -------------------------------------------------                       
+%    Shield-pin   = 1.10
+%    Active coolant  = 0.27
+%    Duct            = 0.54
+%    IA-gap coolant  = 0.04
+%    Cell total      = 1.95
+%                                                                            
+%    Cell-averaged temperatures (deg. C)                                     
+%    -------------------------------------------------                       
+%    Shield-pin   = 419.8
+%    Active coolant  = 481.5
+%    Duct            = 419.8
+%    IA-gap coolant  = 416.8
+%                                                                            
+%    Component density (g/cc)                                                
+%    -------------------------------------------------                       
+%    Shield-pin  = 2.253
+%    Active coolant = 0.837
+%    Duct           = 7.640
+%    IA-gap coolant = 0.852
+%                                                                            
+%    Component mass (kg/cell)                                                
+%    -------------------------------------------------                       
+%    Shield-pin     = 3893.6
+%    Active coolant = 964.0
+%    Duct           = 1905.0
+%    IA-gap coolant = 125.0
+%                                                                            
+% ######################################################                     
+
+mat radialshieldmat6 -1.94520 rgb  133 37 37 
+5010.06c  -3.94443e-01     % Shield-pin isotope (B4C) 
+5011.06c  -4.81881e-02     % Shield-pin isotope (B4C) 
+6000.06c  -1.22670e-01     % Shield-pin isotope (B4C) 
+11023.12c -1.39968e-01     % Coolant isotope (Na) 
+28058.06c -9.29278e-04     % Duct isotope (HT9) 
+28060.06c -3.70283e-04     % Duct isotope (HT9) 
+28061.06c -1.63661e-05     % Duct isotope (HT9) 
+28062.06c -5.30244e-05     % Duct isotope (HT9) 
+28064.06c -1.39477e-05     % Duct isotope (HT9) 
+24050.06c -1.38523e-03     % Duct isotope (HT9) 
+24052.06c -2.77795e-02     % Duct isotope (HT9) 
+24053.06c -3.21062e-03     % Duct isotope (HT9) 
+24054.06c -8.14261e-04     % Duct isotope (HT9) 
+25055.06c -5.53160e-04     % Duct isotope (HT9) 
+42092.06c -3.93226e-04     % Duct isotope (HT9) 
+42094.06c -2.50433e-04     % Duct isotope (HT9) 
+42095.06c -4.35608e-04     % Duct isotope (HT9) 
+42096.06c -4.61207e-04     % Duct isotope (HT9) 
+42097.06c -2.66818e-04     % Duct isotope (HT9) 
+42098.06c -6.81121e-04     % Duct isotope (HT9) 
+42100.06c -2.77386e-04     % Duct isotope (HT9) 
+14028.06c -6.35258e-04     % Duct isotope (HT9) 
+14029.06c -3.33151e-05     % Duct isotope (HT9) 
+14030.06c -2.28761e-05     % Duct isotope (HT9) 
+74000.06c -1.38290e-03     % Duct isotope (HT9) 
+23000.06c -1.38290e-03     % Duct isotope (HT9) 
+6000.06c  -5.53160e-04     % Duct isotope (HT9) 
+26054.06c -1.32489e-02     % Duct isotope (HT9) 
+26056.06c -2.15673e-01     % Duct isotope (HT9) 
+26057.06c -5.06991e-03     % Duct isotope (HT9) 
+26058.06c -6.86537e-04     % Duct isotope (HT9) 
+11023.06c -1.81505e-02     % IA-gap coolant isotope (Na) 
+
+% ####################################################                      
+%                                                                           
+%    Cell radialshield8                                      
+%                                                                           
+%    Materials                                                              
+%    -------------------------------------------------                      
+%    Shield-pin: B4C
+%    Coolant:    Na
+%    Duct:       HT9
+%                                                                           
+%    General geometry                                                       
+%    -------------------------------------------------                      
+%    Cell volume: 3.541 m^3 
+%    Axially between  z = 0 and 3.0 m 
+%    Radially between r = 2.445 and 2.665 m 
+%                                                                            
+%    Calculated geometry                                                     
+%    -------------------------------------------------                       
+%    Shield pin diameter: 3.359 cm 
+%    Shield pin pitch:    3.909 cm 
+%    Shield pin P/D:      1.164 
+%                                                                            
+%    Mass fractions                                                          
+%    -------------------------------------------------                       
+%    Shield-pin      = 56.57%
+%    Active coolant  = 13.94%
+%    Duct            = 27.67%
+%    IA-gap coolant  = 1.81%
+%                                                                            
+%    Volume fractions                                                        
+%    -------------------------------------------------                       
+%    Shield-pin      = 48.81% (60.00% in-assembly) 
+%    Active coolant  = 32.54% (40.00% in-assembly) 
+%    Duct            = 7.04%
+%    IA-gap coolant  = 4.14%
+%                                                                            
+%    Cell-averaged mass density (g/cc)                                       
+%    -------------------------------------------------                       
+%    Shield-pin   = 1.10
+%    Active coolant  = 0.27
+%    Duct            = 0.54
+%    IA-gap coolant  = 0.04
+%    Cell total      = 1.94
+%                                                                            
+%    Cell-averaged temperatures (deg. C)                                     
+%    -------------------------------------------------                       
+%    Shield-pin   = 428.8
+%    Active coolant  = 499.1
+%    Duct            = 428.8
+%    IA-gap coolant  = 425.8
+%                                                                            
+%    Component density (g/cc)                                                
+%    -------------------------------------------------                       
+%    Shield-pin  = 2.252
+%    Active coolant = 0.833
+%    Duct           = 7.637
+%    IA-gap coolant = 0.850
+%                                                                            
+%    Component mass (kg/cell)                                                
+%    -------------------------------------------------                       
+%    Shield-pin     = 3893.0
+%    Active coolant = 959.3
+%    Duct           = 1904.3
+%    IA-gap coolant = 124.7
+%                                                                            
+% ######################################################                     
+
+mat radialshieldmat7 -1.94340 rgb  133 37 37 
+5010.06c  -3.94747e-01     % Shield-pin isotope (B4C) 
+5011.06c  -4.82253e-02     % Shield-pin isotope (B4C) 
+6000.06c  -1.22765e-01     % Shield-pin isotope (B4C) 
+11023.12c -1.39404e-01     % Coolant isotope (Na) 
+28058.06c -9.29805e-04     % Duct isotope (HT9) 
+28060.06c -3.70493e-04     % Duct isotope (HT9) 
+28061.06c -1.63754e-05     % Duct isotope (HT9) 
+28062.06c -5.30545e-05     % Duct isotope (HT9) 
+28064.06c -1.39556e-05     % Duct isotope (HT9) 
+24050.06c -1.38602e-03     % Duct isotope (HT9) 
+24052.06c -2.77952e-02     % Duct isotope (HT9) 
+24053.06c -3.21244e-03     % Duct isotope (HT9) 
+24054.06c -8.14723e-04     % Duct isotope (HT9) 
+25055.06c -5.53474e-04     % Duct isotope (HT9) 
+42092.06c -3.93449e-04     % Duct isotope (HT9) 
+42094.06c -2.50575e-04     % Duct isotope (HT9) 
+42095.06c -4.35856e-04     % Duct isotope (HT9) 
+42096.06c -4.61469e-04     % Duct isotope (HT9) 
+42097.06c -2.66969e-04     % Duct isotope (HT9) 
+42098.06c -6.81507e-04     % Duct isotope (HT9) 
+42100.06c -2.77543e-04     % Duct isotope (HT9) 
+14028.06c -6.35619e-04     % Duct isotope (HT9) 
+14029.06c -3.33340e-05     % Duct isotope (HT9) 
+14030.06c -2.28890e-05     % Duct isotope (HT9) 
+74000.06c -1.38368e-03     % Duct isotope (HT9) 
+23000.06c -1.38368e-03     % Duct isotope (HT9) 
+6000.06c  -5.53474e-04     % Duct isotope (HT9) 
+26054.06c -1.32564e-02     % Duct isotope (HT9) 
+26056.06c -2.15795e-01     % Duct isotope (HT9) 
+26057.06c -5.07279e-03     % Duct isotope (HT9) 
+26058.06c -6.86927e-04     % Duct isotope (HT9) 
+11023.06c -1.81221e-02     % IA-gap coolant isotope (Na) 
+
+% ####################################################                      
+%                                                                           
+%    Cell radialshield9                                      
+%                                                                           
+%    Materials                                                              
+%    -------------------------------------------------                      
+%    Shield-pin: B4C
+%    Coolant:    Na
+%    Duct:       HT9
+%                                                                           
+%    General geometry                                                       
+%    -------------------------------------------------                      
+%    Cell volume: 3.541 m^3 
+%    Axially between  z = 0 and 3.0 m 
+%    Radially between r = 2.445 and 2.665 m 
+%                                                                            
+%    Calculated geometry                                                     
+%    -------------------------------------------------                       
+%    Shield pin diameter: 3.359 cm 
+%    Shield pin pitch:    3.909 cm 
+%    Shield pin P/D:      1.164 
+%                                                                            
+%    Mass fractions                                                          
+%    -------------------------------------------------                       
+%    Shield-pin      = 56.60%
+%    Active coolant  = 13.91%
+%    Duct            = 27.68%
+%    IA-gap coolant  = 1.81%
+%                                                                            
+%    Volume fractions                                                        
+%    -------------------------------------------------                       
+%    Shield-pin      = 48.81% (60.00% in-assembly) 
+%    Active coolant  = 32.54% (40.00% in-assembly) 
+%    Duct            = 7.04%
+%    IA-gap coolant  = 4.14%
+%                                                                            
+%    Cell-averaged mass density (g/cc)                                       
+%    -------------------------------------------------                       
+%    Shield-pin   = 1.10
+%    Active coolant  = 0.27
+%    Duct            = 0.54
+%    IA-gap coolant  = 0.04
+%    Cell total      = 1.94
+%                                                                            
+%    Cell-averaged temperatures (deg. C)                                     
+%    -------------------------------------------------                       
+%    Shield-pin   = 434.0
+%    Active coolant  = 509.3
+%    Duct            = 434.0
+%    IA-gap coolant  = 431.0
+%                                                                            
+%    Component density (g/cc)                                                
+%    -------------------------------------------------                       
+%    Shield-pin  = 2.252
+%    Active coolant = 0.830
+%    Duct           = 7.636
+%    IA-gap coolant = 0.849
+%                                                                            
+%    Component mass (kg/cell)                                                
+%    -------------------------------------------------                       
+%    Shield-pin     = 3892.6
+%    Active coolant = 956.5
+%    Duct           = 1903.9
+%    IA-gap coolant = 124.5
+%                                                                            
+% ######################################################                     
+
+mat radialshieldmat8 -1.94237 rgb  133 37 37 
+5010.06c  -3.94922e-01     % Shield-pin isotope (B4C) 
+5011.06c  -4.82467e-02     % Shield-pin isotope (B4C) 
+6000.06c  -1.22820e-01     % Shield-pin isotope (B4C) 
+11023.12c -1.39078e-01     % Coolant isotope (Na) 
+28058.06c -9.30110e-04     % Duct isotope (HT9) 
+28060.06c -3.70615e-04     % Duct isotope (HT9) 
+28061.06c -1.63807e-05     % Duct isotope (HT9) 
+28062.06c -5.30719e-05     % Duct isotope (HT9) 
+28064.06c -1.39602e-05     % Duct isotope (HT9) 
+24050.06c -1.38647e-03     % Duct isotope (HT9) 
+24052.06c -2.78043e-02     % Duct isotope (HT9) 
+24053.06c -3.21350e-03     % Duct isotope (HT9) 
+24054.06c -8.14990e-04     % Duct isotope (HT9) 
+25055.06c -5.53655e-04     % Duct isotope (HT9) 
+42092.06c -3.93578e-04     % Duct isotope (HT9) 
+42094.06c -2.50657e-04     % Duct isotope (HT9) 
+42095.06c -4.35998e-04     % Duct isotope (HT9) 
+42096.06c -4.61620e-04     % Duct isotope (HT9) 
+42097.06c -2.67056e-04     % Duct isotope (HT9) 
+42098.06c -6.81731e-04     % Duct isotope (HT9) 
+42100.06c -2.77634e-04     % Duct isotope (HT9) 
+14028.06c -6.35827e-04     % Duct isotope (HT9) 
+14029.06c -3.33449e-05     % Duct isotope (HT9) 
+14030.06c -2.28965e-05     % Duct isotope (HT9) 
+74000.06c -1.38414e-03     % Duct isotope (HT9) 
+23000.06c -1.38414e-03     % Duct isotope (HT9) 
+6000.06c  -5.53655e-04     % Duct isotope (HT9) 
+26054.06c -1.32607e-02     % Duct isotope (HT9) 
+26056.06c -2.15866e-01     % Duct isotope (HT9) 
+26057.06c -5.07445e-03     % Duct isotope (HT9) 
+26058.06c -6.87152e-04     % Duct isotope (HT9) 
+11023.06c -1.81056e-02     % IA-gap coolant isotope (Na) 
+
+% ####################################################                         
+%                                                                              
+%    Cell abovecorecoolant                                                     
+%                                                                              
+%    Materials                                                                 
+%    -------------------------------------------------                         
+%    Coolant:   Na
+%                                                                              
+%    General geometry                                                          
+%    -------------------------------------------------                         
+%    Cell volume:  844186.039 m^3 
+%    Axial length: 2.000 m 
+%    Diameter:     5.331 m 
+%                                                                              
+%    Mass fractions                                                            
+%    -------------------------------------------------                         
+%    Coolant    = 100.00%
+%                                                                              
+%    Volume fractions                                                          
+%    -------------------------------------------------                         
+%    Coolant    = 100.00%
+%                                                                              
+%    Cell-averaged mass density (g/cc)                                         
+%    -------------------------------------------------                         
+%    Cell total = 0.85
+%                                                                              
+%    Cell-averaged temperatures (deg. C)                                       
+%    -------------------------------------------------                         
+%    Coolant    = 444.5
+%                                                                              
+%    Component density (g/cc)                                                  
+%    -------------------------------------------------                         
+%    Coolant    = 0.85
+%                                                                              
+%    Component mass (kg/cell)                                                  
+%    -------------------------------------------------                         
+%    Coolant    = 715878475.7
+%                                                                              
+% ######################################################                       
+
+mat outsidecoolantmat -0.84801 rgb  242 242 242  
+11023.06c -1.00000e+00     % Coolant isotope (Na) 
+
+% ####################################################                         
+%                                                                              
+%    Cell uppergasplenum                                                       
+%                                                                              
+%    Materials                                                                 
+%    -------------------------------------------------                         
+%    Cladding: HT9
+%    Coolant:  Na
+%    Duct:     HT9
+%                                                                              
+%    General geometry                                                          
+%    -------------------------------------------------                         
+%    Cell volume:  1.554 m^3 
+%    Axial length: 0.100 m 
+%    Diameter:     4.449 m 
+%                                                                              
+%    Mass fractions                                                            
+%    -------------------------------------------------                         
+%    Fission gas     = 0.10%
+%    Cladding        = 55.43%
+%    Active coolant  = 12.03%
+%    Duct            = 30.45%
+%    IA-gap coolant  = 1.99%
+%                                                                              
+%    Volume fractions                                                          
+%    -------------------------------------------------                         
+%    Fission gas     = 50.51% 
+%    Cladding        = 12.88%
+%    Active coolant  = 25.60%
+%    Duct            = 7.04%
+%    IA-gap coolant  = 4.14%
+%                                                                              
+%    Cell-averaged mass density (g/cc)                                         
+%    -------------------------------------------------                         
+%    Fission gas     = 0.00
+%    Cladding        = 0.98
+%    Active coolant  = 0.21
+%    Duct            = 0.54
+%    IA-gap coolant  = 0.04
+%    Cell total      = 1.77
+%                                                                              
+%    Cell-averaged temperatures (deg. C)                                       
+%    -------------------------------------------------                         
+%    Fission gas     = 546.5
+%    Cladding        = 539.3
+%    Active coolant  = 509.3
+%    Duct            = 434.0
+%    IA-gap coolant  = 431.0
+%                                                                              
+%    Component density (g/cc)                                                  
+%    -------------------------------------------------                         
+%    Fission gas     = 0.00
+%    Cladding        = 7.60
+%    Active coolant  = 0.83
+%    Duct            = 7.64
+%    IA-gap coolant  = 0.85
+%                                                                              
+%    Component mass (kg/cell)                                                
+%    -------------------------------------------------                       
+%    Fission gas    = 2.8
+%    Cladding       = 1521.7
+%    Active coolant = 330.3
+%    Duct           = 835.8
+%    IA-gap         = 54.7
+%                                                                            
+% ######################################################                     
+
+mat uppergasplenummat -1.76609 rgb  196 225 242 
+11023.12c -1.21328e-01     % Coolant isotope (Na) 
+28058.12c -1.86239e-03     % Cladding isotope (HT9) 
+28060.12c -7.42094e-04     % Cladding isotope (HT9) 
+28061.12c -3.27997e-05     % Cladding isotope (HT9) 
+28062.12c -1.06268e-04     % Cladding isotope (HT9) 
+28064.12c -2.79530e-05     % Cladding isotope (HT9) 
+24050.12c -2.77617e-03     % Cladding isotope (HT9) 
+24052.12c -5.56735e-02     % Cladding isotope (HT9) 
+24053.12c -6.43449e-03     % Cladding isotope (HT9) 
+24054.12c -1.63188e-03     % Cladding isotope (HT9) 
+25055.12c -1.10860e-03     % Cladding isotope (HT9) 
+42092.12c -7.88073e-04     % Cladding isotope (HT9) 
+42094.12c -5.01898e-04     % Cladding isotope (HT9) 
+42095.12c -8.73014e-04     % Cladding isotope (HT9) 
+42096.12c -9.24317e-04     % Cladding isotope (HT9) 
+42097.12c -5.34736e-04     % Cladding isotope (HT9) 
+42098.12c -1.36505e-03     % Cladding isotope (HT9) 
+42100.12c -5.55916e-04     % Cladding isotope (HT9) 
+14028.12c -1.27314e-03     % Cladding isotope (HT9) 
+14029.12c -6.67676e-05     % Cladding isotope (HT9) 
+14030.12c -4.58465e-05     % Cladding isotope (HT9) 
+74000.12c -2.77150e-03     % Cladding isotope (HT9) 
+23000.12c -2.77150e-03     % Cladding isotope (HT9) 
+6000.12c  -1.10860e-03     % Cladding isotope (HT9) 
+26054.12c -2.65524e-02     % Cladding isotope (HT9) 
+26056.12c -4.32235e-01     % Cladding isotope (HT9) 
+26057.12c -1.01607e-02     % Cladding isotope (HT9) 
+26058.12c -1.37591e-03     % Cladding isotope (HT9) 
+28058.06c -1.02295e-03     % Duct isotope (HT9) 
+28060.06c -4.07607e-04     % Duct isotope (HT9) 
+28061.06c -1.80158e-05     % Duct isotope (HT9) 
+28062.06c -5.83692e-05     % Duct isotope (HT9) 
+28064.06c -1.53536e-05     % Duct isotope (HT9) 
+24050.06c -1.52486e-03     % Duct isotope (HT9) 
+24052.06c -3.05796e-02     % Duct isotope (HT9) 
+24053.06c -3.53425e-03     % Duct isotope (HT9) 
+24054.06c -8.96338e-04     % Duct isotope (HT9) 
+25055.06c -6.08917e-04     % Duct isotope (HT9) 
+42092.06c -4.32862e-04     % Duct isotope (HT9) 
+42094.06c -2.75676e-04     % Duct isotope (HT9) 
+42095.06c -4.79517e-04     % Duct isotope (HT9) 
+42096.06c -5.07696e-04     % Duct isotope (HT9) 
+42097.06c -2.93712e-04     % Duct isotope (HT9) 
+42098.06c -7.49777e-04     % Duct isotope (HT9) 
+42100.06c -3.05346e-04     % Duct isotope (HT9) 
+14028.06c -6.99291e-04     % Duct isotope (HT9) 
+14029.06c -3.66732e-05     % Duct isotope (HT9) 
+14030.06c -2.51819e-05     % Duct isotope (HT9) 
+74000.06c -1.52229e-03     % Duct isotope (HT9) 
+23000.06c -1.52229e-03     % Duct isotope (HT9) 
+6000.06c  -6.08917e-04     % Duct isotope (HT9) 
+26054.06c -1.45843e-02     % Duct isotope (HT9) 
+26056.06c -2.37412e-01     % Duct isotope (HT9) 
+26057.06c -5.58095e-03     % Duct isotope (HT9) 
+26058.06c -7.55739e-04     % Duct isotope (HT9) 
+11023.06c -1.99128e-02     % IA-gap coolant isotope (Na) 
+
+% ####################################################                         
+%                                                                              
+%    Cell abovecorecoolant                                                     
+%                                                                              
+%    Materials                                                                 
+%    -------------------------------------------------                         
+%    Coolant:   Na
+%                                                                              
+%    General geometry                                                          
+%    -------------------------------------------------                         
+%    Cell volume:  844186.039 m^3 
+%    Axial length: 2.000 m 
+%    Diameter:     733.093 m 
+%                                                                              
+%    Mass fractions                                                            
+%    -------------------------------------------------                         
+%    Coolant    = 100.00%
+%                                                                              
+%    Volume fractions                                                          
+%    -------------------------------------------------                         
+%    Coolant    = 100.00%
+%                                                                              
+%    Cell-averaged mass density (g/cc)                                         
+%    -------------------------------------------------                         
+%    Cell total = 0.83
+%                                                                              
+%    Cell-averaged temperatures (deg. C)                                       
+%    -------------------------------------------------                         
+%    Coolant    = 509.3
+%                                                                              
+%    Component density (g/cc)                                                  
+%    -------------------------------------------------                         
+%    Coolant    = 0.83
+%                                                                              
+%    Component mass (kg/cell)                                                  
+%    -------------------------------------------------                         
+%    Coolant    = 700778562.6
+%                                                                              
+% ######################################################                       
+
+mat abovecorecoolantmat -0.83012 rgb  242 242 242  
+11023.12c -1.00000e+00     % Coolant isotope (Na) 
+

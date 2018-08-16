@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#SBATCH --job-name=ADOPT
+#SBATCH --job-name=ADOPT_wire
 
 #SBATCH --output=ADOPT.o
 

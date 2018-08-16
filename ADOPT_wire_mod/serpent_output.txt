@@ -1,0 +1,240 @@
+
+  _                   .-=-.           .-=-.          .-==-.       
+ { }      __        .' O o '.       .' O o '.       /  -<' )--<   
+ { }    .' O'.     / o .-. O \     / o .-. O \     /  .---`       
+ { }   / .-. o\   /O  /   \  o\   /O  /   \  o\   /O /            
+  \ `-` /   \ O`-'o  /     \  O`-'o  /     \  O`-`o /             
+   `-.-`     '.____.'       `._____.'       `.____.'              
+
+Serpent 2 beta
+
+A Continuous-energy Monte Carlo Reactor Physics Burnup Calculation Code
+
+ - Version 2.1.30 (February 14, 2018) -- Contact: serpent@vtt.fi
+
+ - Reference: J. Leppanen, et al. "The Serpent Monte Carlo code: Status,
+              development and applications in 2013." Ann. Nucl. Energy,
+              82 (2015) 142-150.
+
+ - Compiled Feb 14 2018 11:48:34
+
+ - MPI Parallel calculation mode available
+
+ - OpenMP Parallel calculation mode available
+
+ - Geometry and mesh plotting available
+
+ - Default data path not set
+
+Begin calculation on Mon Aug 13 10:45:32 2018
+
+Reading input file "BnB_stage1"...
+Reading input file "BnB_nonfuel"...
+
+ ***** Warning: Serpent 1 input option stabcut on line 466 of file BnB_stage1 not used
+
+
+ ***** Warning: Serpent 1 input option xsfcut on line 468 of file BnB_stage1 not used
+
+Reading input file "BnB_stage1_mburn"...
+
+NOTE: The "set printm" feature is outdated and not recommended to be
+      used anymore. For restart calculations use the binary restart
+      files ("set rfw") and ("set rfr"):
+
+      http://serpent.vtt.fi/mediawiki/index.php/Input_syntax_manual#set_rfw
+
+      Isotopic data is best obtained from the _res.m output.
+
+
+Checking duplicate input definitions...
+OK.
+
+Dividing burnable materials...
+OK.
+
+Creating geometry...
+OK.
+
+Counting geometry zones...
+
+Processing cells...
+OK.
+
+Linking materials to geometry...
+OK.
+
+Counting cells...
+OK.
+
+Processing data for group constant generation:
+
+ - 70 energy groups in micro-group structure
+ - 2 energy groups in macro-group structure
+ - B1 fundamental mode calculation is not run
+ - Group constants generated in 1 universes
+ - Discontinuity factors are not calculated
+ - Pin-power distributions are not calculated
+ - Albedos are not calculated
+ - Poison cross sections are not calculated
+
+Reading ACE directory files...
+OK.
+
+Reading radioactive decay data files...
+OK.
+
+Reading neutron-induced fission yields...
+OK.
+
+Adding nuclides in material Batch12Axial1...
+
+Nuclide   1001.06c -- hydrogen at 600K (H-1)
+Nuclide   1002.06c -- deuterium at 600K (H-2)
+Nuclide   1003.06c -- tritium at 600K (H-3)
+Nuclide   2003.06c -- helium 3 at 600K (He-3)
+Nuclide   2004.06c -- helium 4 at 600K (He-4)
+Nuclide   6000.06c -- natural carbon at 600K (C-nat)
+Nuclide  11023.06c -- sodium 23 at 600K (Na-23)
+Nuclide  12024.06c -- magnesium 24 at 600K (Mg-24)
+Nuclide  12025.06c -- magnesium 25 at 600K (Mg-25)
+Nuclide  12026.06c -- magnesium 26 at 600K (Mg-26)
+Nuclide  13027.06c -- aluminum 27 at 600K (Al-27)
+Nuclide  14028.06c -- silicon 28 at 600K (Si-28)
+Nuclide  14029.06c -- silicon 29 at 600K (Si-29)
+Nuclide  14030.06c -- silicon 30 at 600K (Si-30)
+Nuclide  15031.06c -- phosphorus 31 at 600K (P-31)
+Nuclide  16032.06c -- sulfur 32 at 600K (S-32)
+Nuclide  16033.06c -- sulfur 33 at 600K (S-33)
+Nuclide  16034.06c -- sulfur 34 at 600K (S-34)
+Nuclide  16036.06c -- sulfur 36 at 600K (S-36)
+Nuclide  17035.06c -- chlorine 35 at 600K (Cl-35)
+Nuclide  17037.06c -- chlorine 37 at 600K (Cl-37)
+Nuclide  18036.06c -- argon 36 at 600K (Ar-36)
+Nuclide  18038.06c -- argon 38 at 600K (Ar-38)
+Nuclide  18040.06c -- argon 40 at 600K (Ar-40)
+Nuclide  19039.06c -- potassium 39 at 600K (K-39)
+Nuclide  19040.06c -- potassium 40 at 600K (K-40)
+Nuclide  19041.06c -- potassium 41 at 600K (K-41)
+Nuclide  20040.06c -- calcium 40 at 600K (Ca-40)
+Nuclide  20042.06c -- calcium 42 at 600K (Ca-42)
+Nuclide  20043.06c -- calcium 43 at 600K (Ca-43)
+Nuclide  20044.06c -- calcium 44 at 600K (Ca-44)
+Nuclide  20046.06c -- calcium 46 at 600K (Ca-46)
+Nuclide  21045.06c -- scandium 45 at 600K (Sc-45)
+Nuclide  22046.06c -- titanium 46 at 600K (Ti-46)
+Nuclide  22047.06c -- titanium 47 at 600K (Ti-47)
+Nuclide  22048.06c -- titanium 48 at 600K (Ti-48)
+Nuclide  22049.06c -- titanium 49 at 600K (Ti-49)
+Nuclide  22050.06c -- titanium 50 at 600K (Ti-50)
+Nuclide  23000.06c -- natural vanadium at 600K (V-nat)
+Nuclide  23051.06c -- vanadium 51 at 600K (V-51)
+Nuclide  24050.06c -- chromium 50 at 600K (Cr-50)
+Nuclide  24052.06c -- chromium 52 at 600K (Cr-52)
+Nuclide  24053.06c -- chromium 53 at 600K (Cr-53)
+Nuclide  24054.06c -- chromium 54 at 600K (Cr-54)
+Nuclide  25055.06c -- manganese 55 at 600K (Mn-55)
+Nuclide  26054.06c -- iron 54 at 600K (Fe-54)
+Nuclide  26056.06c -- iron 56 at 600K (Fe-56)
+Nuclide  26057.06c -- iron 57 at 600K (Fe-57)
+Nuclide  26058.06c -- iron 58 at 600K (Fe-58)
+Nuclide  27058.06c -- cobalt 58 at 600K (Co-58)
+Nuclide  27059.06c -- cobalt 59 at 600K (Co-59)
+Nuclide  28058.06c -- nickel 58 at 600K (Ni-58)
+Nuclide  28059.06c -- nickel 59 at 600K (Ni-59)
+Nuclide  28060.06c -- nickel 60 at 600K (Ni-60)
+Nuclide  28061.06c -- nickel 61 at 600K (Ni-61)
+Nuclide  28062.06c -- nickel 62 at 600K (Ni-62)
+Nuclide  28064.06c -- nickel 64 at 600K (Ni-64)
+Nuclide  29063.06c -- copper 63 at 600K (Cu-63)
+Nuclide  29065.06c -- copper 65 at 600K (Cu-65)
+Nuclide  30064.06c -- zinc 64 at 600K (Zn-64)
+Nuclide  31069.06c -- gallium 69 at 600K (Ga-69)
+Nuclide  31071.06c -- gallium 71 at 600K (Ga-71)
+Nuclide  32070.06c -- germanium 70 at 600K (Ge-70)
+Nuclide  32072.06c -- germanium 72 at 600K (Ge-72)
+Nuclide  32073.06c -- germanium 73 at 600K (Ge-73)
+Nuclide  32074.06c -- germanium 74 at 600K (Ge-74)
+Nuclide  32076.06c -- germanium 76 at 600K (Ge-76)
+Nuclide  33074.06c -- arsenic 74 at 600K (As-74)
+Nuclide  33075.06c -- arsenic 75 at 600K (As-75)
+Nuclide  34074.06c -- selenium 74 at 600K (Se-74)
+Nuclide  34076.06c -- selenium 76 at 600K (Se-76)
+Nuclide  34077.06c -- selenium 77 at 600K (Se-77)
+Nuclide  34078.06c -- selenium 78 at 600K (Se-78)
+Nuclide  34079.06c -- selenium 79 at 600K (Se-79)
+Nuclide  34080.06c -- selenium 80 at 600K (Se-80)
+Nuclide  34082.06c -- selenium 82 at 600K (Se-82)
+Nuclide  35079.06c -- bromine 79 at 600K (Br-79)
+Nuclide  35081.06c -- bromine 81 at 600K (Br-81)
+Nuclide  36080.06c -- krypton 80 at 600K (Kr-80)
+Nuclide  36082.06c -- krypton 82 at 600K (Kr-82)
+Nuclide  36083.06c -- krypton 83 at 600K (Kr-83)
+Nuclide  36084.06c -- krypton 84 at 600K (Kr-84)
+Nuclide  36085.06c -- krypton 85 at 600K (Kr-85)
+Nuclide  36086.06c -- krypton 86 at 600K (Kr-86)
+Nuclide  37085.06c -- rubidium 85 at 600K (Rb-85)
+Nuclide  37086.06c -- rubidium 86 at 600K (Rb-86)
+Nuclide  37087.06c -- rubidium 87 at 600K (Rb-87)
+Nuclide  38084.06c -- strontium 84 at 600K (Sr-84)
+Nuclide  38086.06c -- strontium 86 at 600K (Sr-86)
+Nuclide  38087.06c -- strontium 87 at 600K (Sr-87)
+Nuclide  38088.06c -- strontium 88 at 600K (Sr-88)
+Nuclide  38089.06c -- strontium 89 at 600K (Sr-89)
+Nuclide  38090.06c -- strontium 90 at 600K (Sr-90)
+Nuclide  39089.06c -- yttrium 89 at 600K (Y-89)
+Nuclide  39090.06c -- yttrium 90 at 600K (Y-90)
+Nuclide  39091.06c -- yttrium 91 at 600K (Y-91)
+Nuclide  40090.06c -- zirconium 90 at 600K (Zr-90)
+Nuclide  40091.06c -- zirconium 91 at 600K (Zr-91)
+Nuclide  40092.06c -- zirconium 92 at 600K (Zr-92)
+Nuclide  40093.06c -- zirconium 93 at 600K (Zr-93)
+Nuclide  40094.06c -- zirconium 94 at 600K (Zr-94)
+Nuclide  40095.06c -- zirconium 95 at 600K (Zr-95)
+Nuclide  40096.06c -- zirconium 96 at 600K (Zr-96)
+Nuclide  41093.06c -- niobium 93 at 600K (Nb-93)
+Nuclide  41094.06c -- niobium 94 at 600K (Nb-94)
+Nuclide  41095.06c -- niobium 95 at 600K (Nb-95)
+Nuclide  42092.06c -- molybdenum 92 at 600K (Mo-92)
+Nuclide  42094.06c -- molybdenum 94 at 600K (Mo-94)
+Nuclide  42095.06c -- molybdenum 95 at 600K (Mo-95)
+Nuclide  42096.06c -- molybdenum 96 at 600K (Mo-96)
+Nuclide  42097.06c -- molybdenum 97 at 600K (Mo-97)
+Nuclide  42098.06c -- molybdenum 98 at 600K (Mo-98)
+Nuclide  42099.06c -- molybdenum 99 at 600K (Mo-99)
+Nuclide  42100.06c -- molybdenum 100 at 600K (Mo-100)
+Nuclide  43099.06c -- technetium 99 at 600K (Tc-99)
+Nuclide  44098.06c -- ruthenium 98 at 600K (Ru-98)
+Nuclide  44099.06c -- ruthenium 99 at 600K (Ru-99)
+Nuclide  44100.06c -- ruthenium 100 at 600K (Ru-100)
+Nuclide  44101.06c -- ruthenium 101 at 600K (Ru-101)
+Nuclide  44102.06c -- ruthenium 102 at 600K (Ru-102)
+Nuclide  44103.06c -- ruthenium 103 at 600K (Ru-103)
+Nuclide  44104.06c -- ruthenium 104 at 600K (Ru-104)
+Nuclide  44105.06c -- ruthenium 105 at 600K (Ru-105)
+Nuclide  44106.06c -- ruthenium 106 at 600K (Ru-106)
+Nuclide  45103.06c -- rhodium 103 at 600K (Rh-103)
+Nuclide  45105.06c -- rhodium 105 at 600K (Rh-105)
+Nuclide  46102.06c -- palladium 102 at 600K (Pd-102)
+Nuclide  46104.06c -- palladium 104 at 600K (Pd-104)
+Nuclide  46105.06c -- palladium 105 at 600K (Pd-105)
+Nuclide  46106.06c -- palladium 106 at 600K (Pd-106)
+Nuclide  46107.06c -- palladium 107 at 600K (Pd-107)
+Nuclide  46108.06c -- palladium 108 at 600K (Pd-108)
+Nuclide  46110.06c -- palladium 110 at 600K (Pd-110)
+Nuclide  47107.06c -- silver 107 at 600K (Ag-107)
+Nuclide  47109.06c -- silver 109 at 600K (Ag-109)
+Nuclide  47310.06c -- silver 110m at 600K (Ag-110m)
+Nuclide  47111.06c -- silver 111 at 600K (Ag-111)
+Nuclide  48106.06c -- cadmium 106 at 600K (Cd-106)
+Nuclide  48108.06c -- cadmium 108 at 600K (Cd-108)
+Nuclide  48110.06c -- cadmium 110 at 600K (Cd-110)
+Nuclide  48111.06c -- cadmium 111 at 600K (Cd-111)
+Nuclide  48112.06c -- cadmium 112 at 600K (Cd-112)
+Nuclide  48113.06c -- cadmium 113 at 600K (Cd-113)
+Nuclide  48114.06c -- cadmium 114 at 600K (Cd-114)
+Nuclide  48315.06c -- cadmium 115m at 600K (Cd-115m)
+Nuclide  48116.06c -- cadmium 116 at 600K (Cd-116)
+Nuclide  49113.06c -- indium 113 at 600K (In-113)
+Nuclide  49115.06c -- indium 115 at 600K (In-115)
+Nuclide  50112.06c -- tin 112 at 600K (Sn-112)
