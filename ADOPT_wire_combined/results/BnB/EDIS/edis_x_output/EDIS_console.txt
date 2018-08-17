@@ -1,0 +1,54 @@
+##    ________________________________
+##    |                              |
+##    |    ______ _____  _  _____    |
+##    |   |  ____|  __ \(_)/ ____|   |
+##    |   | |__  | |  | |_| (___     |
+##    |   |  __| | |  | | |\___ \    |
+##    |   | |____| |__| | |____) |   |
+##    |   |______|_____/|_|_____/    |
+##    |                              |
+##    |    August 2013               |
+##    |______________________________|
+##    |                              |
+##    |    E: staffanq@gmail.com     |
+##    |______________________________|
+##    
+##    
+##    Checking the user settings...
+##    OK.
+##    
+##    Identifying the Serpent input file...
+##    OK.
+##    
+##    Checking for source normalization...
+##    OK.
+##    
+##    Checking for burnable materials...
+##    OK.
+##    
+##    Checking material printing settings...
+##    OK.
+##    
+##    Checking depletion settings...
+##    OK.
+##    
+##    Checking nuclide inventory...
+##    
+##    Analyzing shuffling scheme...
+##    OK.
+##    
+##    Checking burnable volumes...
+##    OK.
+##
+##    Preparing for STAGE-1 conditioning...
+##         - Adjusting neutron population
+##         - Switching off predictor/corrector
+##         - Adjusting buffer size
+##
+##    RUNNING STAGE-1 ANALYSIS
+##
+##    - STAGE-1 iteration 1 of 40 (finished in 5 minutes and 37 seconds) - 
+##    - STAGE-1 iteration 2 of 40 (finished in 4 minutes and 40 seconds) - 
+##    - STAGE-1 iteration 3 of 40 (finished in 4 minutes and 36 seconds) - 
+##    - STAGE-1 iteration 4 of 40 (finished in 4 minutes and 32 seconds) - 
+##    - STAGE-1 iteration 5 of 40 (finished in 4 minutes and 33 seconds) - 

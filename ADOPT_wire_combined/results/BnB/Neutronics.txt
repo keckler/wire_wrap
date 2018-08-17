@@ -1,0 +1,13 @@
+
+----- Multiplication -----------------------------
+  Keff (BOC/EOC):     0.0000/0.0000 (+/- 0.00000)
+  Keff (min/max):     0.0000/0.0000 (+/- 0.00000)
+
+----- Delayed neutron fraction  ------------------
+  Beff (BOC/EOC):     100000/100000 pcm (+/- 0.0 pcm)
+  Beff (min/max):     100000/100000 pcm (+/- 0.0 pcm)
+
+----- Flux and fluence ---------------------------
+  Peak flux:          10.00 (x 1e14 n/cm^2*s)
+  Peak fluence:       0.63 (x 1e23 n/cm^2)
+
