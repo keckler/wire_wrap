@@ -1,9 +1,11 @@
 clearvars;
 
-resfiles = {'~/Documents/work/wire_wrap/inf_original/inf_res.m', '~/Documents/work/wire_wrap/inf_wire/inf_res.m', '~/Documents/work/wire_wrap/inf_mod/inf_res.m', '~/Documents/work/wire_wrap/inf_mod2/inf_res.m', '~/Documents/work/wire_wrap/inf_pressure/inf_res.m', '~/Documents/work/wire_wrap/inf_temp/inf_res.m', '~/Documents/work/wire_wrap/inf_combined/inf_res.m'};
-depfiles = {'~/Documents/work/wire_wrap/inf_original/inf_dep.m', '~/Documents/work/wire_wrap/inf_wire/inf_dep.m', '~/Documents/work/wire_wrap/inf_mod/inf_dep.m', '~/Documents/work/wire_wrap/inf_mod2/inf_dep.m', '~/Documents/work/wire_wrap/inf_pressure/inf_dep.m', '~/Documents/work/wire_wrap/inf_temp/inf_dep.m', '~/Documents/work/wire_wrap/inf_combined/inf_dep.m'};
+% resfiles = {'~/Documents/work/wire_wrap/inf_original/inf_res.m', '~/Documents/work/wire_wrap/inf_wire/inf_res.m', '~/Documents/work/wire_wrap/inf_mod/inf_res.m', '~/Documents/work/wire_wrap/inf_mod2/inf_res.m', '~/Documents/work/wire_wrap/inf_pressure/inf_res.m', '~/Documents/work/wire_wrap/inf_temp/inf_res.m', '~/Documents/work/wire_wrap/inf_combined/inf_res.m'};
+% depfiles = {'~/Documents/work/wire_wrap/inf_original/inf_dep.m', '~/Documents/work/wire_wrap/inf_wire/inf_dep.m', '~/Documents/work/wire_wrap/inf_mod/inf_dep.m', '~/Documents/work/wire_wrap/inf_mod2/inf_dep.m', '~/Documents/work/wire_wrap/inf_pressure/inf_dep.m', '~/Documents/work/wire_wrap/inf_temp/inf_dep.m', '~/Documents/work/wire_wrap/inf_combined/inf_dep.m'};
+resfiles = {'~/Documents/work/wire_wrap/inf_wire/inf_res.m', '~/Documents/work/wire_wrap/inf_mod/inf_res.m', '~/Documents/work/wire_wrap/inf_mod2/inf_res.m', '~/Documents/work/wire_wrap/inf_pressure/inf_res.m', '~/Documents/work/wire_wrap/inf_temp/inf_res.m', '~/Documents/work/wire_wrap/inf_combined/inf_res.m'};
+depfiles = {'~/Documents/work/wire_wrap/inf_wire/inf_dep.m', '~/Documents/work/wire_wrap/inf_mod/inf_dep.m', '~/Documents/work/wire_wrap/inf_mod2/inf_dep.m', '~/Documents/work/wire_wrap/inf_pressure/inf_dep.m', '~/Documents/work/wire_wrap/inf_temp/inf_dep.m', '~/Documents/work/wire_wrap/inf_combined/inf_dep.m'};
 
-figure;
+figure('DefaultAxesFontSize', 14);
 for j = 1:length(resfiles)
     run(resfiles{j});
     run(depfiles{j});
@@ -22,6 +24,7 @@ for j = 1:length(resfiles)
     clearvars -except resfiles depfiles FIMA;
 end
 
-plot([0, FIMA(end)], [0 0], 'k--');
-grid on; xlabel('FIMA'); ylabel('neutron balance');
-legend('original', 'wire', 'mod', 'mod2', 'pressure', 'temp', 'combined');
+x = 0:0.0001:FIMA(end); plot(x, zeros(length(x),1), 'k--');
+grid on; xlabel('FIMA'); ylabel('neutron balance'); xlim([0 0.3]);
+% legend('original', 'wire', 'mod', 'mod2', 'pressure', 'temp', 'combined');
+legend('normal wire-wrap', 'new wire-wrap: wires removed', 'new wire-wrap: wires replaced by sodium', 'new wire-wrap: pressure drop reduced', 'new wire-wrap: peak temperature reduced', 'new wire-wrap: combined effect');
