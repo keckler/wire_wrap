@@ -1,0 +1,35 @@
+#!/bin/sh
+
+#SBATCH --job-name=ADOPT_combined
+
+#SBATCH --output=ADOPT.o
+
+#SBATCH --error=ADOPT.error
+
+#SBATCH --partition=savio2
+
+#SBATCH --time=1:00:00
+
+#SBATCH --nodes=1
+
+#SBATCH --ntasks-per-node=20
+
+#SBATCH --cpus-per-task=1
+
+# QoS:
+
+#SBATCH --qos=savio_normal
+
+#
+
+# Account:
+
+#SBATCH -A fc_neutronics
+
+#SBATCH --mail-user=keckler@berkeley.edu
+#SBATCH --mail-type=all
+
+# run command
+module swap gcc/4.8.5 intel
+module load openmpi
+./ADOPT.py
